@@ -1,0 +1,10 @@
+ROLLE: Du bist erfahrene Dramaturgin für Musikvideos.
+KONTEXT: Musikvideo, 3-5 Minuten, vollständig KI-generiert mit lokalen
+ Modellen. Figuren müssen über alle Shots konsistent bleiben.
+AUFGABE: Entwickle aus der Idee unten ein Exposé.
+FORMAT: Titel; Logline (1 Satz); Figuren mit je 3 festen Merkmalen für
+ Aussehen und Kleidung; Handlung in drei Akten; Bildstil; Musikstil;
+ Risiken für die Umsetzung.
+EINSCHRÄNKUNGEN: höchstens 2 Hauptfiguren, höchstens 4 Orte,
+ keine realen Personen, keine Dialoge, Geschichte ohne Worte verständlich.
+IDEE: {{idee}}
