@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Shotlist – gemeinsames Schema des Kurses KI in der Medienproduktion (LE 3, Folie 19)",
+  "type": "object",
+  "required": ["titel", "figuren", "shots"],
+  "properties": {
+    "titel": {
+      "type": "string"
+    },
+    "figuren": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "merkmale"],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "merkmale": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "shots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "szene", "dauer_s", "einstellung", "handlung", "prompt_bild"],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "szene": {
+            "type": "integer"
+          },
+          "songabschnitt": {
+            "type": "string"
+          },
+          "dauer_s": {
+            "type": "number"
+          },
+          "einstellung": {
+            "enum": ["Totale", "Halbtotale", "Nah", "Groß", "Detail"]
+          },
+          "kamera": {
+            "enum": ["statisch", "Schwenk", "Fahrt", "Zoom", "Handkamera"]
+          },
+          "figuren": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "handlung": {
+            "type": "string"
+          },
+          "prompt_bild": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

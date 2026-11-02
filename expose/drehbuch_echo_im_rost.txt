@@ -1,0 +1,95 @@
+# Drehbuch: „Echo im Rost"
+
+Musikvideo, 8 Szenen, ~4:00 Min. · ohne Dialoge, ohne gesprochene Worte · nur Sichtbares und Hörbares.
+Figuren: Prima (s. Exposé, 5 feste Merkmale), Echo (nur als Hologramm).
+
+---
+
+SZENE 1 – EXT. ÜBERWUCHERTE STRASSE – MORGENGRAU (Intro)
+
+Totale: Eine menschenleere Straße, von Moos und Efeu überwuchert, rostige Autos, dünner Nebel.
+Nur Musik: leises, melancholisches Piano über einem tiefen Pad.
+Detail: In der Dunkelheit öffnet sich ein rundes bernsteinfarbenes Auge langsam. Staubpartikel
+tanzen in einem Lichtstrahl.
+Ein kleiner runder Roboter (Prima: cremefarbene Schale mit rostfarbenen Kratzern, bernsteinfarbenes
+Auge, rote Antenne, grauer Rucksack) steht inmitten der Straße. Seine rote Antenne pulst schwach.
+Er blickt in die Ferne, wo zwischen den Ruinen ein schwacher roter Lichtpunkt flackert.
+Er hebt den Kopf und macht einen Schritt vorwärts.
+
+SZENE 2 – EXT. ÜBERWUCHERTE STRASSE – MORGENGRAU (Strophe 1)
+
+Die Strophe setzt ein (tiefe, langsame Drums, Synth-Pads).
+Prima rollt seitlich durchs Bild entlang einer von Efeu überwucherten Wand.
+Detail: Seine kurzen, dicken Beine rollen über rissigen Asphalt, Moos wächst zwischen den Fugen.
+Er hält an und blickt nach oben.
+Totale: Auf einem entfernten Dach leuchtet das rote Signal hell auf.
+Groß: Primas Auge verengt sich; der rote Lichtpunkt spiegelt sich größer in der Pupille.
+Prima setzt sich in Bewegung, Richtung Signal.
+
+SZENE 3 – INT. U-BAHN-TUNNEL – DUNKEL (Strophe 2)
+
+Die Strophe 2 baut auf (Percussion kommt hinzu).
+Totale: Ein dunkler U-Bahn-Tunnel, moosbedeckte Wände, ein Lichtschacht fällt von oben.
+Prima steht klein in der Mitte.
+Frontal: Prima rollt langsam auf die Kamera zu; tief im Tunnel flackert rotes Licht, wird schwächer.
+Detail: Primas Antenne pulst; das rote Pulsen wird schwächer und flackert.
+Prima hält an und senkt den Kopf; das Auge wird dimmer.
+Groß: Gesicht im Halbdunkel; ein Wassertropfen fällt von der Decke.
+
+SZENE 4 – INT. U-BAHN-TUNNEL – DUNKEL (Refrain 1)
+
+Der Refrain 1 setzt ein (aufbauende Percussion, epische Streicher, erste Vocals).
+Der Tunnel wird zum Rhythmus-Element: drei statische Perspektiven, im Editor schnell geschnitten.
+Frontal: Prima rollt gerade auf die Kamera zu.
+Seitlich: Prima rollt von links nach rechts durch den Bildausschnitt.
+Rückansicht: Prima rollt in die Tiefe des Tunnels.
+Groß: Primas Auge leuchtet heller; roter Lichtpunkt in der Pupille; entschlossen.
+Frontal (Wiederholung, anderer Abstand): für den schnellen Schnitt im Editor.
+Keine Handkamera, keine Wackler – die Energie entsteht ausschließlich im Schnitt.
+
+SZENE 5 – EXT. PARKLICHTUNG – LEICHTER REGEN (Bridge)
+
+Die Musik zieht sich auf ein Minimum zurück: pulsierender Bass, das leise Zischen der Antenne,
+Regengeräusche.
+Totale: Eine überwucherte Parklichtung, alte Bäume, grauer Himmel, leichter Regen.
+Prima steht mit gesenktem Kopf; die rote Antenne ist erloschen. Regen fällt auf seine Schale.
+Groß: Gesicht im Regen, Auge dimm, Tropfen auf der Schale.
+Detail: Regentropfen perlen auf der cremefarbenen Schale; das Auge flackert schwach.
+Detail: Regentropfen fallen auf moosbedeckte Steine.
+Prima hebt den Kopf; die Antenne flackert kurz wieder auf.
+
+SZENE 6 – EXT. PARKLICHTUNG – REGEN LÄSST NACH (Bridge-Ende)
+
+Detail: Die Antenne leuchtet jetzt hellrot und pulst klar.
+Prima läuft durch die Parklichtung; im Hintergrund leuchtet eine große, von Pflanzen
+umwucherte Glas-Kuppel.
+Totale: Die Glas-Kuppel, helles rotes Licht im Inneren.
+Prima steht vor der Kuppel; das rote Licht fällt auf seine Schale.
+
+SZENE 7 – INT. GLAS-KUPPEL – INNERES LICHT (Refrain 2 / Auflösung)
+
+Der Refrain 2 baut auf (Streicher, die Vocals werden klarer).
+Innen der Kuppel: kaputtes Glas, Pflanzen, weiches inneres Leuchten.
+Shot A: Prima steht in der Kuppel und blickt auf einen schwebenden, hellen Lichtkern in der
+Mitte. Er streckt die Hand aus, berührt aber nichts. Das Licht pulst sanft um seine Hand
+(Partikeleffekt in Post-Produktion).
+Shot B (Insert): Extreme Nahaufnahme von Primas Auge. In der Pupille ist die Form von Echo
+zu sehen (Reflexion wird in Post-Produktion eingeblendet).
+Shot C (Cutaway): Nur das Echo-Hologramm allein: schwebt, blau-weiß, pulsiert sanft.
+Die drei Shots werden im Editor schnell abwechselnd geschnitten – die Verbindung entsteht
+durch den Schnitt, nicht durch ein gemeinsames Rendering.
+Groß: Primas Auge glüht warm; die Antenne leuchtet hellrot.
+
+SZENE 8 – EXT. GLAS-KUPPEL / STADT – VON NACHT ZU MORGEN (Finaler Refrain + Outro)
+
+Der finale Refrain: volles Orchester, triumphale, weite Melodie, klare Vocals.
+Groß: Primas Antenne auf Maximum; helles rotes Licht beleuchtet das Gesicht von oben.
+Totale: Kuppel von außen; rotes Licht pulst aus dem Inneren, Pflanzen bewegen sich im Wind.
+Totale: Nächtliche Stadtsilhouette; Lichter erwachen einzeln, wie Sterne.
+Die Musik endet mit einem lang anhaltenden, hallenden Akkord und dem klanglichen
+„Einschalten“ der Stadt.
+Totale: Die Stadt ist voller Lichter; der Himmel wird zu Morgenrot.
+Morgendämmerung: Prima steht auf einem Dach, dahinter die Stadt voller Licht.
+Groß: Primas Auge glüht warm. Sanftes Ausblenden.
+
+ENDE

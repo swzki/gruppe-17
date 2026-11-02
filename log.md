@@ -92,3 +92,22 @@ Faustformel: **Gewichte in GB ≈ Parameter in Mrd. × Bit pro Gewicht / 8**
 - Musik: Cinematic Post-Rock, ~70 BPM, **weibliche, ethereale Vocals im Refrain** (ACE-Step 1.5) – von der Gruppe zu bestätigen
 - Resultat: `expose/echo-im-rost.md` (endgültig, inkl. manueller Korrektur von Logline und Tippfehlern)
 - Hinweis: Parallel existiert der Exposé-Kandidat `expose/gravity-of-wild.md` (Fabian, 02.11.). Gruppenentscheidung, welche Exposé am 08.11. abgegeben wird, ist noch offen.
+
+## LE 3 – Drehbuch, Storyboard, Shotlist (02.11.2026)
+
+**Erstellt:** Drehbuch (8 Szenen) + Storyboard (43 Shots) + Shotlist als JSON.
+
+**Drehbuch** (`expose/drehbuch_echo_im_rost.txt`): 8 Szenen mit Szenenkopf (INT./EXT. ORT – TAGESZEIT) und Songabschnitt pro Szene; nur Sichtbares und Hörbares, keine Gedanken; ohne Dialog.
+
+**Storyboard** (`expose/storyboard_echo_im_rost.txt`): pro Szene 3–6 Einstellungen, einheitliches Vokabular (Totale/Halbtotale/Nah/Groß/Detail; statisch/Schwenk/Fahrt/Zoom/Handkamera). Laut Exposé nur statische oder lineare Kamera (Fahrt) – Dynamik ausschließlich im Schnitt.
+
+**Shotlist** (`shotlist/shotlist_v001.json`), erzeugt per Skript `scripts/generate_shotlist.py`, validiert gegen `shotlist/schema.json` (jsonschema):
+- 43 Shots, Summe `dauer_s` = **240 s** (Pfad: 180–300 s)
+- Figurenmerkmale (Prima, Echo) **identisch formuliert in jedem `prompt_bild`** (Skript-Check)
+- Shots pro Szene: {1: 6, 2: 6, 3: 5, 4: 5, 5: 6, 6: 4, 7: 5, 8: 6} (alle 3–6)
+- Alle `einstellung`/`kamera`-Werte aus dem Schema-Enum
+
+**Entscheidungen:**
+- Song-Struktur über 8 Szenen: Intro / Strophe 1 / Strophe 2 / Refrain 1 / Bridge / Bridge-Ende / Refrain 2 (Auflösung) / Finaler Refrain + Outro.
+- Shot-IDs `s01`–`s43`; Storyboard-Tabelle verweist 1:1 auf die Shotlist-IDs.
+- Shotlist ist **vorläufig** – in LE 7 wird sie an die reale Songstruktur von ACE-Step angepasst.

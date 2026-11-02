@@ -1,0 +1,558 @@
+{
+  "titel": "Echo im Rost",
+  "figuren": [
+    {
+      "name": "Prima",
+      "merkmale": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back"
+    },
+    {
+      "name": "Echo",
+      "merkmale": "translucent blue-white holographic robot in identical round shape to Prima, glowing inner light, red antenna shimmering blue, floating in the air"
+    }
+  ],
+  "shots": [
+    {
+      "id": "s01",
+      "szene": 1,
+      "songabschnitt": "Intro",
+      "dauer_s": 5,
+      "einstellung": "Detail",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Primas Auge öffnet sich langsam in der Dunkelheit; Staubpartikel tanzen in einem Lichtstrahl.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, extreme close-up of the amber round eye slowly opening in darkness, dust particles floating in a beam of light, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s02",
+      "szene": 1,
+      "songabschnitt": "Intro",
+      "dauer_s": 5,
+      "einstellung": "Totale",
+      "kamera": "statisch",
+      "figuren": [],
+      "handlung": "Übersicht: die von der Natur zurückeroberte Straße im Morgengrau, Moos und Efeu, rostige Autos, dünner Nebel.",
+      "prompt_bild": "wide establishing shot of an overgrown city street reclaimed by nature in early dawn mist, moss and ivy covering rusty abandoned cars, broken asphalt, soft gray morning light, no characters, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s03",
+      "szene": 1,
+      "songabschnitt": "Intro",
+      "dauer_s": 5,
+      "einstellung": "Halbtotale",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Prima steht inmitten der überwucherten Straße; seine rote Antenne pulst schwach rot.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, full shot standing alone in the middle of an overgrown street, ivy and moss around, its red antenna pulsing with a faint red light, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s04",
+      "szene": 1,
+      "songabschnitt": "Intro",
+      "dauer_s": 5,
+      "einstellung": "Groß",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Gesicht von Prima: Das Auge öffnet sich weiter, ein schwacher roter Lichtpunkt spiegelt sich in der Pupille.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, close-up of the face, the amber eye opening wider, a faint red dot of light reflected in the pupil, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s05",
+      "szene": 1,
+      "songabschnitt": "Intro",
+      "dauer_s": 5,
+      "einstellung": "Totale",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Prima, klein im Bild, blickt in die Ferne, wo ein schwacher roter Lichtpunkt zwischen den Ruinen aufleuchtet.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, wide shot, tiny in frame on an overgrown street, looking toward a faint flickering red light in the far distance between ruined buildings, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s06",
+      "szene": 1,
+      "songabschnitt": "Intro",
+      "dauer_s": 5,
+      "einstellung": "Nah",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Prima hebt den Kopf und macht einen Schritt vorwärts.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, medium close-up lifting its head and stepping forward on cracked pavement, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s07",
+      "szene": 2,
+      "songabschnitt": "Strophe 1",
+      "dauer_s": 6,
+      "einstellung": "Halbtotale",
+      "kamera": "Fahrt",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Die Kamera fährt langsam seitlich neben Prima her, während er die überwucherte Straße entlangrollt.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, side tracking shot rolling slowly along an overgrown wall covered in ivy, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s08",
+      "szene": 2,
+      "songabschnitt": "Strophe 1",
+      "dauer_s": 6,
+      "einstellung": "Detail",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Nahaufnahme: Primas kurze, dicke Beine rollen über rissigen Asphalt, Moos wächst zwischen den Fugen.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, detail shot of the short thick legs rolling over cracked asphalt with moss growing between the joints, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s09",
+      "szene": 2,
+      "songabschnitt": "Strophe 1",
+      "dauer_s": 6,
+      "einstellung": "Nah",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Prima hält an und blickt nach oben.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, medium close-up stopping and looking upward, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s10",
+      "szene": 2,
+      "songabschnitt": "Strophe 1",
+      "dauer_s": 6,
+      "einstellung": "Totale",
+      "kamera": "statisch",
+      "figuren": [],
+      "handlung": "Auf einem entfernten Dach leuchtet das rote Signal hell auf.",
+      "prompt_bild": "wide shot of a ruined city rooftop in dawn light, a single bright red signal light glowing on the roof, no characters, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s11",
+      "szene": 2,
+      "songabschnitt": "Strophe 1",
+      "dauer_s": 6,
+      "einstellung": "Groß",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Primas Auge verengt sich; der rote Lichtpunkt spiegelt sich größer in der Pupille.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, close-up of the face, the amber eye narrowing, the red light dot growing larger in the pupil reflection, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s12",
+      "szene": 2,
+      "songabschnitt": "Strophe 1",
+      "dauer_s": 5,
+      "einstellung": "Halbtotale",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Prima setzt sich in Bewegung, Richtung Signal.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, full shot starting to move forward toward a distant red light, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s13",
+      "szene": 3,
+      "songabschnitt": "Strophe 2",
+      "dauer_s": 6,
+      "einstellung": "Totale",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Dunkler U-Bahn-Tunnel, moosbedeckte Wände; ein Lichtschacht fällt von oben; Prima steht klein in der Mitte.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, wide shot of a dark abandoned subway tunnel with mossy walls, a shaft of light from above, tiny in the center of the frame, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s14",
+      "szene": 3,
+      "songabschnitt": "Strophe 2",
+      "dauer_s": 6,
+      "einstellung": "Halbtotale",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Frontal: Prima rollt langsam auf die Kamera zu; tief im Tunnel flackert rotes Licht.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, frontal shot slowly rolling toward the camera in a dark mossy tunnel, a faint red light flickering deep in the background, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s15",
+      "szene": 3,
+      "songabschnitt": "Strophe 2",
+      "dauer_s": 6,
+      "einstellung": "Detail",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Nahaufnahme der Antenne: Das rote Pulsen wird schwächer und flackert.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, close-up of the red antenna, its light pulsing weakly and flickering in the dark, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s16",
+      "szene": 3,
+      "songabschnitt": "Strophe 2",
+      "dauer_s": 6,
+      "einstellung": "Nah",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Prima hält an und senkt den Kopf; das Auge wird dimmer.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, medium close-up stopping, head lowered, the amber eye dimming in the dark, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s17",
+      "szene": 3,
+      "songabschnitt": "Strophe 2",
+      "dauer_s": 6,
+      "einstellung": "Groß",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Gesicht im Halbdunkel; ein Wassertropfen fällt von der Decke.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, close-up of the face in half-darkness, a single water drop falling from the ceiling, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s18",
+      "szene": 4,
+      "songabschnitt": "Refrain 1",
+      "dauer_s": 6,
+      "einstellung": "Halbtotale",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Frontal: Prima rollt gerade auf die Kamera zu (einfache lineare Bewegung).",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, frontal shot rolling in a straight line directly toward the camera in a dark mossy tunnel, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s19",
+      "szene": 4,
+      "songabschnitt": "Refrain 1",
+      "dauer_s": 6,
+      "einstellung": "Totale",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Seitlich: Prima rollt von links nach rechts durch den Bildausschnitt.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, wide side shot rolling from left to right across the frame in a dark mossy tunnel, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s20",
+      "szene": 4,
+      "songabschnitt": "Refrain 1",
+      "dauer_s": 6,
+      "einstellung": "Nah",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Rückansicht: Prima rollt in die Tiefe des Tunnels.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, rear view shot rolling away into the depth of a dark mossy tunnel, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s21",
+      "szene": 4,
+      "songabschnitt": "Refrain 1",
+      "dauer_s": 6,
+      "einstellung": "Groß",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Auge leuchtet heller; roter Lichtpunkt in der Pupille; entschlossen.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, close-up of the face, the amber eye glowing brighter, red light dot in the pupil, determined, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s22",
+      "szene": 4,
+      "songabschnitt": "Refrain 1",
+      "dauer_s": 6,
+      "einstellung": "Halbtotale",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Frontal: Prima rollt auf die Kamera zu (Wiederholung für schnellen Schnitt im Editor).",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, frontal shot rolling toward the camera in a dark mossy tunnel, slightly closer framing for a fast cut in editing, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s23",
+      "szene": 5,
+      "songabschnitt": "Bridge",
+      "dauer_s": 5,
+      "einstellung": "Totale",
+      "kamera": "statisch",
+      "figuren": [],
+      "handlung": "Parklichtung im leichten Regen: Moos, alte Bäume, grauer Himmel.",
+      "prompt_bild": "wide shot of an overgrown park clearing in light rain, moss, old trees, gray sky, no characters, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s24",
+      "szene": 5,
+      "songabschnitt": "Bridge",
+      "dauer_s": 5,
+      "einstellung": "Halbtotale",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Prima steht mit gesenktem Kopf; die Antenne ist erloschen; Regen fällt.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, full shot standing with head lowered in light rain, the red antenna dark and switched off, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s25",
+      "szene": 5,
+      "songabschnitt": "Bridge",
+      "dauer_s": 5,
+      "einstellung": "Groß",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Gesicht im Regen; Auge dimm; Tropfen auf der Schale.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, close-up of the face in light rain, the amber eye dim, raindrops on the shell, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s26",
+      "szene": 5,
+      "songabschnitt": "Bridge",
+      "dauer_s": 5,
+      "einstellung": "Detail",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Regentropfen perlen auf der cremefarbenen Schale; das Auge flackert schwach.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, detail shot of raindrops beading on the off-white shell, the amber eye flickering weakly, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s27",
+      "szene": 5,
+      "songabschnitt": "Bridge",
+      "dauer_s": 5,
+      "einstellung": "Detail",
+      "kamera": "statisch",
+      "figuren": [],
+      "handlung": "Regentropfen fallen auf moosbedeckte Steine.",
+      "prompt_bild": "detail shot of raindrops falling onto moss-covered stones, no characters, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s28",
+      "szene": 5,
+      "songabschnitt": "Bridge",
+      "dauer_s": 5,
+      "einstellung": "Nah",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Prima hebt den Kopf; die Antenne flackert kurz wieder auf.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, medium close-up lifting its head in the rain, the red antenna flickering back on briefly, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s29",
+      "szene": 6,
+      "songabschnitt": "Bridge",
+      "dauer_s": 5,
+      "einstellung": "Detail",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Nahaufnahme der Antenne: Sie leuchtet jetzt hellrot und pulst klar.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, close-up of the red antenna glowing bright red with a clear steady pulse, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s30",
+      "szene": 6,
+      "songabschnitt": "Bridge",
+      "dauer_s": 5,
+      "einstellung": "Halbtotale",
+      "kamera": "Fahrt",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Prima läuft durch die Parklichtung; im Hintergrund leuchtet die Glas-Kuppel.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, side tracking shot walking through a park clearing, an overgrown glass dome glowing red in the background, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s31",
+      "szene": 6,
+      "songabschnitt": "Bridge",
+      "dauer_s": 5,
+      "einstellung": "Totale",
+      "kamera": "statisch",
+      "figuren": [],
+      "handlung": "Die von Pflanzen umwucherte Glas-Kuppel; helles rotes Licht im Inneren.",
+      "prompt_bild": "wide shot of a large glass dome overgrown with plants, bright red light glowing inside, no characters, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s32",
+      "szene": 6,
+      "songabschnitt": "Bridge",
+      "dauer_s": 5,
+      "einstellung": "Nah",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Prima steht vor der Kuppel; das rote Licht fällt auf seine Schale.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, medium close-up standing in front of the glass dome, red light falling on the shell, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s33",
+      "szene": 7,
+      "songabschnitt": "Refrain 2",
+      "dauer_s": 6,
+      "einstellung": "Halbtotale",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Innen der Kuppel: Prima blickt auf einen schwebenden hellen Lichtkern; streckt die Hand aus, berührt nichts. (Shot A)",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, full shot inside the glass dome, looking up at a floating bright white light core in the center, one hand extended but not touching, plants and broken glass around, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s34",
+      "szene": 7,
+      "songabschnitt": "Refrain 2",
+      "dauer_s": 6,
+      "einstellung": "Groß",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Extreme Nahaufnahme des Auges; in der Pupille die Form von Echo (Reflexion in Post-Produktion). (Shot B)",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, extreme close-up of the amber eye, the reflection of a small robot shape visible in the pupil, post-production effect, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s35",
+      "szene": 7,
+      "songabschnitt": "Refrain 2",
+      "dauer_s": 6,
+      "einstellung": "Nah",
+      "kamera": "statisch",
+      "figuren": [
+        "Echo"
+      ],
+      "handlung": "Nur das Echo-Hologramm allein: schwebt, blau-weiß, pulsiert sanft. (Shot C)",
+      "prompt_bild": "translucent blue-white holographic robot in identical round shape to Prima, glowing inner light, red antenna shimmering blue, floating in the air, medium close-up of the hologram alone, floating and pulsing softly, no other characters in frame, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s36",
+      "szene": 7,
+      "songabschnitt": "Refrain 2",
+      "dauer_s": 6,
+      "einstellung": "Detail",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Primas Hand ist ausgestreckt; helle Lichtpartikel pulsieren um die Hand (Post-Produktion).",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, detail shot of the extended hand, small bright light particles pulsing around it, post-production effect, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s37",
+      "szene": 7,
+      "songabschnitt": "Refrain 2",
+      "dauer_s": 6,
+      "einstellung": "Groß",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Primas Auge glüht warm; die Antenne leuchtet hellrot.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, close-up of the face, the amber eye glowing warm, the red antenna bright, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s38",
+      "szene": 8,
+      "songabschnitt": "Finaler Refrain",
+      "dauer_s": 6,
+      "einstellung": "Groß",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Antenne auf Maximum: helles rotes Licht; das Gesicht wird von oben beleuchtet.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, close-up of the face lit from above by the red antenna glowing at maximum brightness, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s39",
+      "szene": 8,
+      "songabschnitt": "Finaler Refrain",
+      "dauer_s": 6,
+      "einstellung": "Totale",
+      "kamera": "statisch",
+      "figuren": [],
+      "handlung": "Kuppel von außen: rotes Licht pulst aus dem Inneren; Pflanzen bewegen sich im Wind.",
+      "prompt_bild": "wide shot of the glass dome from outside, red light pulsing from inside, plants swaying in the wind, no characters, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s40",
+      "szene": 8,
+      "songabschnitt": "Finaler Refrain",
+      "dauer_s": 6,
+      "einstellung": "Totale",
+      "kamera": "statisch",
+      "figuren": [],
+      "handlung": "Nächtliche Stadtsilhouette: Lichter erwachen einzeln, wie Sterne.",
+      "prompt_bild": "wide shot of a ruined city skyline at night, individual lights turning on one by one like stars, no characters, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s41",
+      "szene": 8,
+      "songabschnitt": "Finaler Refrain",
+      "dauer_s": 6,
+      "einstellung": "Totale",
+      "kamera": "statisch",
+      "figuren": [],
+      "handlung": "Stadt voller Lichter; der Himmel wandelt sich zu Morgendämmerung.",
+      "prompt_bild": "wide shot of the city now full of warm lights, the sky turning to pink dawn, no characters, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s42",
+      "szene": 8,
+      "songabschnitt": "Finaler Refrain",
+      "dauer_s": 6,
+      "einstellung": "Totale",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Morgendämmerung: Prima steht auf einem Dach, dahinter die Stadt voller Licht.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, wide shot standing on a rooftop in dawn light, the city full of warm lights behind, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    },
+    {
+      "id": "s43",
+      "szene": 8,
+      "songabschnitt": "Outro",
+      "dauer_s": 5,
+      "einstellung": "Groß",
+      "kamera": "statisch",
+      "figuren": [
+        "Prima"
+      ],
+      "handlung": "Nahaufnahme: Primas Auge glüht warm; sanftes Ausblenden.",
+      "prompt_bild": "small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, close-up of the face, the amber eye glowing warm, fading to white, cinematic anamorphic look, muted earth tones of moss green, rust brown and slate gray, soft film grain"
+    }
+  ]
+}
