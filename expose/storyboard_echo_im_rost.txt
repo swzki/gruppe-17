@@ -1,0 +1,95 @@
+# Storyboard: „Echo im Rost"
+
+Pro Szene 3–6 Einstellungen mit Einstellungsgröße und Kamera (einheitliches Vokabular:
+Totale / Halbtotale / Nah / Groß / Detail · statisch / Schwenk / Fahrt / Zoom / Handkamera).
+Laut Exposé durchgehend nur statische oder lineare Kamera (Fahrt) – Dynamik entsteht im Schnitt.
+Shot-IDs verweisen auf shotlist/shotlist_v001.json.
+
+---
+
+SZENE 1 – EXT. ÜBERWUCHERTE STRASSE – MORGENGRAU (Intro, 30 s)
+
+| Shot | Größe | Kamera | Inhalt |
+| --- | --- | --- | --- |
+| s01 (5 s) | Detail | statisch | Primas Auge öffnet sich langsam, Staub im Lichtstrahl |
+| s02 (5 s) | Totale | statisch | Überwucherte Straße im Morgengrau (Orientierung, ohne Figur) |
+| s03 (5 s) | Halbtotale | statisch | Prima steht in der Straße, Antenne pulst schwach rot |
+| s04 (5 s) | Groß | statisch | Gesicht: Auge öffnet weiter, roter Lichtpunkt in der Pupille |
+| s05 (5 s) | Totale | statisch | Prima klein im Bild, rotes Signal flackert in der Ferne |
+| s06 (5 s) | Nah | statisch | Prima hebt den Kopf, macht einen Schritt vorwärts |
+
+SZENE 2 – EXT. ÜBERWUCHERTE STRASSE – MORGENGRAU (Strophe 1, 35 s)
+
+| Shot | Größe | Kamera | Inhalt |
+| --- | --- | --- | --- |
+| s07 (6 s) | Halbtotale | Fahrt | Seitliche Kamerafahrt neben Prima, der die Straße entlangrollt |
+| s08 (6 s) | Detail | statisch | Beine rollen über rissigen Asphalt, Moos in den Fugen |
+| s09 (6 s) | Nah | statisch | Prima hält an, blickt nach oben |
+| s10 (6 s) | Totale | statisch | Daches im Morgengrau, rotes Signal leuchtet hell auf |
+| s11 (6 s) | Groß | statisch | Auge verengt sich, Lichtpunkt wächst in der Pupille |
+| s12 (5 s) | Halbtotale | statisch | Prima setzt sich in Richtung Signal in Bewegung |
+
+SZENE 3 – INT. U-BAHN-TUNNEL – DUNKEL (Strophe 2, 30 s)
+
+| Shot | Größe | Kamera | Inhalt |
+| --- | --- | --- | --- |
+| s13 (6 s) | Totale | statisch | Dunkler Tunnel, Lichtschacht von oben, Prima klein in der Mitte |
+| s14 (6 s) | Halbtotale | statisch | Frontal: Prima rollt auf Kamera zu, rotes Licht flackert tief |
+| s15 (6 s) | Detail | statisch | Antenne: rotes Pulsen wird schwächer, flackert |
+| s16 (6 s) | Nah | statisch | Prima senkt den Kopf, Auge wird dimmer |
+| s17 (6 s) | Groß | statisch | Gesicht im Halbdunkel, Wassertropfen fällt von der Decke |
+
+SZENE 4 – INT. U-BAHN-TUNNEL – DUNKEL (Refrain 1, 30 s)
+
+| Shot | Größe | Kamera | Inhalt |
+| --- | --- | --- | --- |
+| s18 (6 s) | Halbtotale | statisch | Frontal: Prima rollt linear auf Kamera zu |
+| s19 (6 s) | Totale | statisch | Seitlich: Prima rollt von links nach rechts durchs Bild |
+| s20 (6 s) | Nah | statisch | Rückansicht: Prima rollt in die Tiefe des Tunnels |
+| s21 (6 s) | Groß | statisch | Auge leuchtet heller, entschlossen |
+| s22 (6 s) | Halbtotale | statisch | Frontal (Wiederholung, anderer Abstand) – für schnellen Schnitt |
+
+SZENE 5 – EXT. PARKLICHTUNG – LEICHTER REGEN (Bridge, 30 s)
+
+| Shot | Größe | Kamera | Inhalt |
+| --- | --- | --- | --- |
+| s23 (5 s) | Totale | statisch | Parklichtung im Regen, grauer Himmel (ohne Figur, Atempause) |
+| s24 (5 s) | Halbtotale | statisch | Prima mit gesenktem Kopf, Antenne erloschen, Regen |
+| s25 (5 s) | Groß | statisch | Gesicht im Regen, Auge dimm, Tropfen auf der Schale |
+| s26 (5 s) | Detail | statisch | Tropfen perlen auf der Schale, Auge flackert schwach |
+| s27 (5 s) | Detail | statisch | Regentropfen auf moosbedeckten Steinen (ohne Figur) |
+| s28 (5 s) | Nah | statisch | Prima hebt den Kopf, Antenne flackert wieder auf |
+
+SZENE 6 – EXT. PARKLICHTUNG – REGEN LÄSST NACH (Bridge-Ende, 20 s)
+
+| Shot | Größe | Kamera | Inhalt |
+| --- | --- | --- | --- |
+| s29 (5 s) | Detail | statisch | Antenne leuchtet hellrot, klares Pulsen |
+| s30 (5 s) | Halbtotale | Fahrt | Prima läuft durch die Lichtung, Kuppel leuchtet im Hintergrund |
+| s31 (5 s) | Totale | statisch | Glas-Kuppel, von Pflanzen umwuchert, rotes Licht innen |
+| s32 (5 s) | Nah | statisch | Prima vor der Kuppel, rotes Licht auf der Schale |
+
+SZENE 7 – INT. GLAS-KUPPEL – INNERES LICHT (Refrain 2 / Auflösung, 30 s)
+
+| Shot | Größe | Kamera | Inhalt |
+| --- | --- | --- | --- |
+| s33 (6 s) | Halbtotale | statisch | Shot A: Prima blickt auf schwebenden Lichtkern, Hand aus, berührt nichts |
+| s34 (6 s) | Groß | statisch | Shot B: Extreme Nahaufnahme des Auges, Echo-Form in der Pupille (Post) |
+| s35 (6 s) | Nah | statisch | Shot C: Nur das Echo-Hologramm allein, blau-weiß, pulsiert |
+| s36 (6 s) | Detail | statisch | Hand ausgestreckt, Lichtpartikel um die Hand (Post) |
+| s37 (6 s) | Groß | statisch | Auge glüht warm, Antenne hellrot |
+
+SZENE 8 – EXT. GLAS-KUPPEL / STADT – VON NACHT ZU MORGEN (Finaler Refrain + Outro, 35 s)
+
+| Shot | Größe | Kamera | Inhalt |
+| --- | --- | --- | --- |
+| s38 (6 s) | Groß | statisch | Antenne auf Maximum, Gesicht von oben beleuchtet |
+| s39 (6 s) | Totale | statisch | Kuppel von außen, rotes Licht pulst, Pflanzen bewegen sich |
+| s40 (6 s) | Totale | statisch | Stadtsilhouette: Lichter erwachen einzeln wie Sterne |
+| s41 (6 s) | Totale | statisch | Stadt voller Lichter, Himmel wird zu Morgenrot |
+| s42 (6 s) | Totale | statisch | Morgendämmerung: Prima auf dem Dach, Stadt voller Licht dahinter |
+| s43 (5 s) | Groß | statisch | Auge glüht warm, sanftes Ausblenden |
+
+---
+
+Gesamt: 8 Szenen, 43 Shots, 240 s.
