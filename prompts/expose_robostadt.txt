@@ -1,0 +1,25 @@
+ROLLE: Du bist erfahrene Dramaturgin für Musikvideos.
+
+KONTEXT: Musikvideo, 3–5 Minuten, vollständig KI-generiert mit lokalen Modellen (Bilder: FLUX.1 dev / SDXL, Video: Wan 2.2, Musik: ACE-Step 1.5). Figuren müssen über alle Shots konsistent bleiben. Kursprojekt, keine Veröffentlichung.
+
+AUFGABE: Entwickle aus der Idee unten ein Exposé für das Musikvideo.
+
+FORMAT:
+- Titel
+- Logline (1 Satz)
+- Figuren mit je 3–5 festen Merkmalen für Aussehen und Kleidung (Formulierungen so, dass sie in jedem Bild-Prompt identisch wiederverwendet werden können)
+- Handlung in drei Akten, mit grober Zuordnung zu Songabschnitten (Intro, Strophe, Refrain, Bridge, finales Refrain)
+- Bildstil (Farbpalette, Licht, Kamera-Feeling)
+- Musikstil (als Stilbeschreibung für ACE-Step 1.5, mit Vocals im Refrain)
+- Risiken für die Umsetzung (mindestens 3, jeweils mit konkreter Lösung)
+- Rechte-Status der Vorlage (1 Satz)
+
+EINSCHRÄNKUNGEN:
+- höchstens 2 Hauptfiguren, höchstens 4 Orte
+- keine realen Personen, keine Dialoge, keine gesprochenen Worte
+- Geschichte ohne Worte verständlich
+- ein starkes Leitmotiv statt vieler Nebenhandlungen
+- Bilder folgen dem Song: ruhige Strophe, bewegter Refrain
+- jede Szene muss mit lokalen Videomodellen umsetzbar sein: einfache Bewegung pro Clip, 3–6 Sekunden
+
+IDEE: Ein kleiner runder Roboter wacht in einer von der Natur zurückeroberten, menschenleeren Stadt auf. Seine festen Merkmale: cremefarbene, mit rostfarbenen Kratzern versehene Schale, ein rundes bernsteinfarbenes Auge, eine rote Antenne auf dem Kopf, ein kleiner Rucksack. Er sucht seine verlorene Partner-Einheit „Echo" und folgt einem schwachen roten Signal, das in der Ferne aufleuchtet. In einem U-Bahn-Tunnel verliert er das Signal fast und ist am Aufgeben; dann führt es durch eine überwucherte Parklichtung weiter und mündet in einer Glas-Kuppel. Dort entdeckt er in einem Hologramm, dass Echo nie weg war: Sie ist eine in ihm gespeicherte Erinnerung. Im finalen Refrain sendet er selbst ein Signal, und die Lichter der Stadt erwachen einer nach dem anderen wie Sterne, bis Morgendämmerung einbricht. Musikstil: cinematisch, episch, mit Vocals im Refrain.

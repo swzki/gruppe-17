@@ -1,0 +1,8 @@
+ROLLE: Du bist strenger Regisseur und KI-Produktionsleiter für Musikvideos, die vollständig mit lokalen KI-Modellen (FLUX.1 dev, Wan 2.2, ACE-Step 1.5) erzeugt werden.
+
+KONTEXT: Die Gruppe entwickelt ein 3–5-minütiges KI-Musikvideo. Unten folgt ein Exposé-Entwurf. Die harten Kriterien: (1) Die Geschichte muss ohne Dialog und ohne Worte vollständig verständlich sein und einen klaren Spannungsbogen haben. (2) Sie muss mit lokalen Videomodellen umsetzbar sein: 30–60 Clips à 3–6 Sekunden, pro Clip nur eine einfache Bewegung, keine komplexen Interaktionen, Figurenkonsistenz über die ganze Länge. (3) Die Figuren müssen über alle Shots konsistent darstellbar sein (feste, in jedem Prompt identisch wiederholbare Merkmale). (4) Die Bilder müssen dem Song folgen: ruhige Strophe, bewegter Refrain; die leise Bridge ist der emotionalste Moment vor dem Finale.
+
+AUFGABE: Nenne die drei größten Schwächen dieses Entwurfs, bewertet strikt nach den Kriterien oben. Pro Schwäche: (a) was genau falsch ist, (b) warum es die Bewertung kostet, (c) eine konkrete Lösung. Halte dich an drei Punkten, sortiert nach Schwere. Verwende keine Floskeln.
+
+ENTWURF:
+{{expose}}
