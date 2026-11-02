@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Farbpalette: Moosgruen, Rostbraun, Schiefergrau, Bernstein, Signal-Rot, Morgenrot">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#171f21"/>
+      <stop offset="1" stop-color="#0e1416"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="960" height="540" fill="url(#bg)"/>
+  <text x="480" y="58" text-anchor="middle" fill="#f3ede3" font-size="28" font-weight="700" font-family="sans-serif">Farbpalette</text>
+  <text x="480" y="88" text-anchor="middle" fill="#8a8378" font-size="15" font-family="sans-serif">gedämpfte Erdtöne · Kontrast-Akzente: Bernstein + Signal-Rot</text>
+
+  <!-- Swatches -->
+  <g font-family="sans-serif" font-size="14">
+    <!-- Moosgrün -->
+    <rect x="60" y="130" width="270" height="120" rx="12" fill="#3d5a3a"/>
+    <text x="80" y="275" fill="#cfc4b2">Moosgrün · Umgebung</text>
+    <!-- Rostbraun -->
+    <rect x="345" y="130" width="270" height="120" rx="12" fill="#8a4b2a"/>
+    <text x="365" y="275" fill="#cfc4b2">Rostbraun · Abnutzung</text>
+    <!-- Schiefergrau -->
+    <rect x="630" y="130" width="270" height="120" rx="12" fill="#5a656e"/>
+    <text x="650" y="275" fill="#cfc4b2">Schiefergrau · Struktur</text>
+
+    <!-- Bernstein -->
+    <rect x="60" y="310" width="270" height="120" rx="12" fill="#e8a83c"/>
+    <text x="80" y="455" fill="#cfc4b2">Bernstein · Primas Auge</text>
+    <!-- Signal-Rot -->
+    <rect x="345" y="310" width="270" height="120" rx="12" fill="#ff5a3c"/>
+    <text x="365" y="455" fill="#cfc4b2">Signal-Rot · Antenne</text>
+    <!-- Morgenrot -->
+    <rect x="630" y="310" width="270" height="120" rx="12" fill="#c96f3a"/>
+    <text x="650" y="455" fill="#cfc4b2">Morgenrot · Finale</text>
+  </g>
+</svg>

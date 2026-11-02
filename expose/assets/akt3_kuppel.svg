@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Prima in einer von Pflanzen umwucherten Glas-Kuppel, vor einem schwebenden hellen Lichtkern, Hand ausgestreckt, Echo als transparente blaue Projektion in der Reflexion des Auges">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c2b33"/>
+      <stop offset="1" stop-color="#101a1e"/>
+    </linearGradient>
+    <radialGradient id="core" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.4" stop-color="#cfe8ff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#7fb2e8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="eye" cx="0.5" cy="0.45" r="0.65">
+      <stop offset="0" stop-color="#ffdf9e"/>
+      <stop offset="0.55" stop-color="#e8a83c"/>
+      <stop offset="1" stop-color="#b06a1a"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="960" height="540" fill="url(#sky)"/>
+  <rect y="440" width="960" height="100" fill="#131e1a"/>
+
+  <!-- Kuppel-Bögen -->
+  <g fill="none" stroke="#3f5a66" stroke-width="5" opacity="0.85">
+    <path d="M120 540 Q 480 60 840 540"/>
+    <path d="M200 540 Q 480 130 760 540"/>
+    <path d="M300 540 Q 480 210 660 540"/>
+    <line x1="480" y1="110" x2="480" y2="540"/>
+    <path d="M120 540 Q 480 60 840 540" stroke="#587888" stroke-width="2"/>
+  </g>
+
+  <!-- Pflanzen am Kuppelfuß -->
+  <g fill="#2e4630">
+    <ellipse cx="150" cy="470" rx="80" ry="40"/>
+    <ellipse cx="820" cy="480" rx="90" ry="45"/>
+    <ellipse cx="260" cy="495" rx="60" ry="30"/>
+    <ellipse cx="700" cy="500" rx="70" ry="32"/>
+  </g>
+  <g stroke="#3d5a3a" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M120 540 q-8 -50 10 -84"/>
+    <path d="M170 540 q6 -56 -10 -92"/>
+    <path d="M840 540 q8 -52 -8 -88"/>
+  </g>
+
+  <!-- Lichtkern -->
+  <circle cx="480" cy="300" r="90" fill="url(#core)"/>
+  <circle cx="480" cy="300" r="34" fill="#ffffff" opacity="0.95"/>
+
+  <!-- Prima (Hand ausgestreckt) -->
+  <g>
+    <rect x="600" y="392" width="52" height="72" rx="16" fill="#6f6f6f"/>
+    <ellipse cx="632" cy="428" rx="62" ry="58" fill="#e6dcc6"/>
+    <path d="M588 416 q12 7 24 3" stroke="#a8623a" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <circle cx="612" cy="420" r="22" fill="url(#eye)"/>
+    <!-- Echo-Reflexion im Auge (Shot B) -->
+    <circle cx="607" cy="415" r="7" fill="#bfe0ff" opacity="0.9"/>
+    <line x1="634" y1="372" x2="634" y2="336" stroke="#c03322" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="634" cy="332" r="8" fill="#ff5a3c"/>
+    <circle cx="634" cy="332" r="15" fill="#ff5a3c" opacity="0.3"/>
+    <!-- ausgestreckter Arm zum Lichtkern -->
+    <line x1="578" y1="414" x2="520" y2="352" stroke="#d8ccb4" stroke-width="16" stroke-linecap="round"/>
+    <ellipse cx="632" cy="488" rx="74" ry="11" fill="#000" opacity="0.35"/>
+  </g>
+
+  <!-- Partikel um die Hand (Post-Produktion) -->
+  <g fill="#cfe8ff">
+    <circle cx="512" cy="344" r="4" opacity="0.9"/>
+    <circle cx="500" cy="360" r="3" opacity="0.7"/>
+    <circle cx="524" cy="336" r="3" opacity="0.8"/>
+    <circle cx="508" cy="328" r="2.5" opacity="0.6"/>
+  </g>
+</svg>

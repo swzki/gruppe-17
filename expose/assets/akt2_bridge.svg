@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Prima in einer überwucherten Parklichtung, Kopf gesenkt, Antenne erlischt, Regen, flackerndes rotes Signal fast unsichtbar">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b3a3a"/>
+      <stop offset="1" stop-color="#1a2626"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2c3a2f"/>
+      <stop offset="1" stop-color="#16211a"/>
+    </linearGradient>
+    <radialGradient id="eye" cx="0.5" cy="0.45" r="0.65">
+      <stop offset="0" stop-color="#e8c07a"/>
+      <stop offset="0.6" stop-color="#b5832e"/>
+      <stop offset="1" stop-color="#7a5416"/>
+    </radialGradient>
+    <radialGradient id="signal" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff5a3c" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#c03322" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#c03322" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="960" height="540" fill="url(#sky)"/>
+  <rect y="380" width="960" height="160" fill="url(#ground)"/>
+
+  <!-- Bäume -->
+  <g>
+    <rect x="90" y="180" width="26" height="220" fill="#241f18"/>
+    <ellipse cx="103" cy="150" rx="90" ry="70" fill="#2e4630"/>
+    <ellipse cx="60" cy="200" rx="60" ry="50" fill="#33502f"/>
+    <rect x="820" y="160" width="28" height="240" fill="#241f18"/>
+    <ellipse cx="834" cy="130" rx="95" ry="75" fill="#2e4630"/>
+    <ellipse cx="890" cy="185" rx="60" ry="50" fill="#33502f"/>
+  </g>
+
+  <!-- fast unsichtbares, flackerndes Signal -->
+  <circle cx="470" cy="300" r="40" fill="url(#signal)"/>
+  <circle cx="470" cy="300" r="3" fill="#ff6a48" opacity="0.7"/>
+
+  <!-- Regen -->
+  <g stroke="#7d94a0" stroke-width="2" opacity="0.5" stroke-linecap="round">
+    <line x1="120" y1="60" x2="108" y2="110"/>
+    <line x1="240" y1="30" x2="228" y2="80"/>
+    <line x1="360" y1="70" x2="348" y2="120"/>
+    <line x1="520" y1="40" x2="508" y2="90"/>
+    <line x1="660" y1="80" x2="648" y2="130"/>
+    <line x1="780" y1="50" x2="768" y2="100"/>
+    <line x1="180" y1="180" x2="168" y2="230"/>
+    <line x1="420" y1="160" x2="408" y2="210"/>
+    <line x1="580" y1="180" x2="568" y2="230"/>
+    <line x1="720" y1="170" x2="708" y2="220"/>
+    <line x1="300" y1="260" x2="288" y2="310"/>
+    <line x1="640" y1="250" x2="628" y2="300"/>
+  </g>
+
+  <!-- Prima, Kopf gesenkt, Antenne erloschen -->
+  <g>
+    <rect x="560" y="380" width="52" height="72" rx="16" fill="#6f6f6f"/>
+    <ellipse cx="592" cy="416" rx="64" ry="60" fill="#e0d6c0"/>
+    <path d="M546 404 q12 7 24 3" stroke="#a8623a" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Auge: gedimmt, Blick nach unten -->
+    <circle cx="572" cy="424" r="23" fill="url(#eye)" opacity="0.8"/>
+    <line x1="588" y1="360" x2="578" y2="322" stroke="#7a3325" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="578" cy="318" r="7" fill="#5a2a20"/>
+    <ellipse cx="592" cy="478" rx="78" ry="11" fill="#000" opacity="0.35"/>
+  </g>
+
+  <!-- hohes Gras -->
+  <g stroke="#3d5a3a" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M40 540 q-6 -40 8 -70"/>
+    <path d="M70 540 q4 -46 -8 -80"/>
+    <path d="M200 540 q-6 -36 6 -64"/>
+    <path d="M880 540 q6 -44 -6 -76"/>
+    <path d="M910 540 q-4 -38 8 -66"/>
+  </g>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Prima rollt durch einen dunklen U-Bahn-Tunnel, Moos an den Wänden, kaltes Licht von oben, schwaches rotes Signal in der Tiefe">
+  <defs>
+    <linearGradient id="tun" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#10161a"/>
+      <stop offset="0.5" stop-color="#1b262c"/>
+      <stop offset="1" stop-color="#0c1215"/>
+    </linearGradient>
+    <linearGradient id="shaft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9fb4c4" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#9fb4c4" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="eye" cx="0.5" cy="0.45" r="0.65">
+      <stop offset="0" stop-color="#ffdf9e"/>
+      <stop offset="0.55" stop-color="#e8a83c"/>
+      <stop offset="1" stop-color="#b06a1a"/>
+    </radialGradient>
+    <radialGradient id="signal" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff5a3c"/>
+      <stop offset="0.5" stop-color="#c03322" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#c03322" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="960" height="540" fill="url(#tun)"/>
+
+  <!-- Tunnel-Öffnung in der Tiefe -->
+  <ellipse cx="480" cy="300" rx="330" ry="250" fill="#0a0f12"/>
+  <ellipse cx="480" cy="300" rx="250" ry="190" fill="#121a1f"/>
+  <ellipse cx="480" cy="300" rx="170" ry="128" fill="#182228"/>
+  <ellipse cx="480" cy="300" rx="100" ry="78" fill="#1e2a31"/>
+
+  <!-- schwaches Signal in der Tiefe -->
+  <circle cx="480" cy="300" r="34" fill="url(#signal)"/>
+  <circle cx="480" cy="300" r="3.5" fill="#ff6a48"/>
+
+  <!-- kalter Lichtschacht von oben -->
+  <polygon points="410,0 550,0 600,240 360,240" fill="url(#shaft)"/>
+
+  <!-- Moos an den Wänden -->
+  <g fill="#3d5a3a" opacity="0.85">
+    <ellipse cx="150" cy="180" rx="40" ry="22"/>
+    <ellipse cx="120" cy="300" rx="34" ry="26"/>
+    <ellipse cx="160" cy="420" rx="42" ry="24"/>
+    <ellipse cx="810" cy="200" rx="38" ry="22"/>
+    <ellipse cx="840" cy="330" rx="34" ry="26"/>
+    <ellipse cx="800" cy="450" rx="40" ry="22"/>
+  </g>
+  <g fill="#4d6b45" opacity="0.8">
+    <ellipse cx="210" cy="120" rx="30" ry="16"/>
+    <ellipse cx="750" cy="140" rx="28" ry="16"/>
+    <ellipse cx="240" cy="470" rx="30" ry="16"/>
+    <ellipse cx="720" cy="480" rx="30" ry="16"/>
+  </g>
+
+  <!-- Gleise -->
+  <line x1="60" y1="520" x2="900" y2="520" stroke="#2a363c" stroke-width="8"/>
+  <line x1="150" y1="470" x2="810" y2="470" stroke="#232d33" stroke-width="6"/>
+
+  <!-- Prima (rollend, frontal auf Kamera zu) -->
+  <g>
+    <rect x="560" y="392" width="52" height="70" rx="16" fill="#6f6f6f"/>
+    <ellipse cx="586" cy="428" rx="64" ry="58" fill="#e6dcc6"/>
+    <path d="M538 416 q12 7 24 3" stroke="#a8623a" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <circle cx="566" cy="420" r="23" fill="url(#eye)"/>
+    <circle cx="560" cy="413" r="6" fill="#fff3d6" opacity="0.85"/>
+    <line x1="588" y1="372" x2="588" y2="336" stroke="#c03322" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="588" cy="332" r="8" fill="#ff5a3c"/>
+    <circle cx="588" cy="332" r="15" fill="#ff5a3c" opacity="0.25"/>
+    <ellipse cx="586" cy="486" rx="76" ry="11" fill="#000" opacity="0.35"/>
+  </g>
+</svg>

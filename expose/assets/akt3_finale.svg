@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Wide Shot: aus der Glas-Kuppel strahlt Licht, die Lichter der toten Stadt erwachen im Hintergrund einzeln wie Sterne, Himmel wird zu Morgenrot">
+  <defs>
+    <linearGradient id="dawn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#41334a"/>
+      <stop offset="0.5" stop-color="#7a4a3e"/>
+      <stop offset="1" stop-color="#c96f3a"/>
+    </linearGradient>
+    <radialGradient id="domeGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9c4"/>
+      <stop offset="0.6" stop-color="#e8a83c" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#e8a83c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="960" height="540" fill="url(#dawn)"/>
+  <rect y="430" width="960" height="110" fill="#1a1416"/>
+
+  <!-- City-Silhouette -->
+  <g fill="#241c20">
+    <rect x="0" y="300" width="70" height="130"/>
+    <rect x="80" y="260" width="55" height="170"/>
+    <rect x="145" y="320" width="60" height="110"/>
+    <rect x="215" y="230" width="48" height="200"/>
+    <rect x="273" y="300" width="66" height="130"/>
+    <rect x="349" y="270" width="52" height="160"/>
+    <rect x="560" y="280" width="58" height="150"/>
+    <rect x="628" y="240" width="50" height="190"/>
+    <rect x="688" y="310" width="64" height="120"/>
+    <rect x="762" y="260" width="54" height="170"/>
+    <rect x="826" y="300" width="60" height="130"/>
+    <rect x="896" y="250" width="64" height="180"/>
+  </g>
+
+  <!-- erwachende Fenster-Lichter wie Sterne -->
+  <g fill="#ffd98a">
+    <circle cx="95" cy="290" r="3.5"/>
+    <circle cx="108" cy="330" r="3"/>
+    <circle cx="232" cy="270" r="3.5"/>
+    <circle cx="245" cy="320" r="3"/>
+    <circle cx="300" cy="330" r="3"/>
+    <circle cx="365" cy="300" r="3.5"/>
+    <circle cx="578" cy="310" r="3"/>
+    <circle cx="590" cy="360" r="3.5"/>
+    <circle cx="645" cy="280" r="3"/>
+    <circle cx="705" cy="340" r="3.5"/>
+    <circle cx="780" cy="295" r="3"/>
+    <circle cx="845" cy="335" r="3.5"/>
+    <circle cx="915" cy="290" r="3"/>
+    <circle cx="930" cy="350" r="3.5"/>
+    <circle cx="228" cy="380" r="2.5"/>
+    <circle cx="650" cy="380" r="2.5"/>
+  </g>
+
+  <!-- Kuppel mit Lichtstrahl (Vordergrund, Mitte) -->
+  <circle cx="480" cy="330" r="120" fill="url(#domeGlow)"/>
+  <g fill="none" stroke="#8a6a4a" stroke-width="4" opacity="0.9">
+    <path d="M380 470 Q 480 210 580 470"/>
+    <path d="M410 470 Q 480 260 550 470"/>
+    <line x1="480" y1="245" x2="480" y2="470"/>
+  </g>
+  <ellipse cx="480" cy="470" rx="100" ry="10" fill="#000" opacity="0.3"/>
+
+  <!-- kleiner Prima in der Kuppel -->
+  <g>
+    <ellipse cx="480" cy="452" rx="26" ry="24" fill="#e6dcc6"/>
+    <circle cx="472" cy="448" r="9" fill="#e8a83c"/>
+    <line x1="481" y1="430" x2="481" y2="414" stroke="#c03322" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="481" cy="411" r="5" fill="#ff5a3c"/>
+    <circle cx="481" cy="411" r="10" fill="#ff5a3c" opacity="0.4"/>
+  </g>
+</svg>

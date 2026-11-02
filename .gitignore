@@ -1,2 +1,5 @@
 .DS_Store
 ._*
+# Marp-Render-Outputs (aus .md regenerierbar)
+expose/*.html
+expose/*.pdf
