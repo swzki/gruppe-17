@@ -5,17 +5,16 @@ paginate: true
 style: |
   section {
     font-family: "Helvetica Neue", "Segoe UI", Arial, sans-serif;
-    background: radial-gradient(ellipse at 30% 10%, #1f2a2b 0%, #12181a 55%, #0a0e10 100%);
+    background:
+      linear-gradient(180deg, rgba(0,0,0,0) 60%, rgba(0,0,0,0.22) 100%),
+      radial-gradient(ellipse at 30% 10%, #1f2a2b 0%, #12181a 55%, #0a0e10 100%);
     color: #ece6da;
-    padding: 1.5vh 3.2vw;
+    padding: 44px 60px 40px;
     font-size: 0.86em;
   }
   section::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(180deg, rgba(0,0,0,0) 60%, rgba(0,0,0,0.22) 100%);
-    pointer-events: none;
+    color: #8a8378;
+    font-size: 0.7em;
   }
   section:not(.lead)::before {
     content: "";
@@ -64,7 +63,8 @@ style: |
   ul { padding-left: 1.2em; }
   li::marker { color: #d97a2b; }
   p { margin: 0.32em 0; line-height: 1.35; }
-  table { width: 100%; border-collapse: collapse; font-size: 0.86em; }
+  table { width: 100%; display: table; border-collapse: collapse; font-size: 0.86em; background: transparent; }
+  table tr, table tr:nth-child(2n), table th, table td { background: transparent; border-left: none; border-right: none; border-top: none; }
   th {
     color: #f0c288;
     text-align: left;
@@ -79,9 +79,9 @@ style: |
   tr:nth-child(even) td { background: rgba(255,255,255,0.03); }
   section > footer {
     position: absolute;
-    bottom: 1.1vh;
-    left: 3.2vw;
-    right: 3.2vw;
+    bottom: 12px;
+    left: 60px;
+    right: 60px;
     font-size: 0.72em;
     color: #b0a898;
     display: flex;
@@ -108,6 +108,7 @@ style: |
   }
   section.lead .badge {
     display: inline-block;
+    align-self: center;
     margin-top: 1.3em;
     padding: 0.45em 1.3em;
     border: 1px solid rgba(217, 122, 43, 0.7);
@@ -120,19 +121,19 @@ style: |
     border-radius: 10px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.5);
     border: 1px solid rgba(217, 122, 43, 0.25);
-    max-height: 48vh;
+    max-height: 340px;
     object-fit: contain;
   }
   section .two {
     display: flex;
-    gap: 2.2vw;
+    gap: 32px;
     align-items: flex-start;
     flex-wrap: wrap;
   }
   section .two > div { flex: 1 1 46%; min-width: 0; }
   section .figures3 {
     display: flex;
-    gap: 1.5vw;
+    gap: 20px;
     align-items: flex-start;
     flex-wrap: wrap;
   }
@@ -144,10 +145,10 @@ style: |
     align-items: center;
     gap: 0.45em;
   }
-  section .figures3 img { width: 100%; max-height: 38vh; object-fit: contain; }
+  section .figures3 img { width: 100%; max-height: 260px; object-fit: contain; }
   section .cards3 {
     display: flex;
-    gap: 1.3vw;
+    gap: 18px;
     align-items: stretch;
     flex-wrap: wrap;
   }
@@ -161,7 +162,9 @@ style: |
     font-size: 0.88em;
   }
   section .figure { text-align: center; }
-  section .figure img { max-height: 44vh; object-fit: contain; }
+  section .figure img { display: block; margin: 0 auto 0.3em; }
+  section .done li::marker { color: #7fa37a; }
+  section .figure img { max-height: 320px; object-fit: contain; }
   section .figure p, section .figure em { font-size: 0.8em; color: #b0a898; }
   section .card {
     background: rgba(255,255,255,0.04);
@@ -174,9 +177,9 @@ style: |
 ---
 
 <!-- _class: lead -->
-# „Echo im Rost"
+# „Echo im Rost“
 
-## Aktuellder Stand der Roboter-Idee
+## Aktueller Stand der Roboter-Idee
 
 **Gruppe 17 · KI in der Medienproduktion · 02.11.2026**
 
@@ -186,26 +189,34 @@ style: |
 
 # Auf einen Blick
 
-::: two
-::: figure
+<div class="two">
+
+<div class="figure">
+
 ![akt1](assets/akt1_strasse.svg)
-:::
-::: figure
+
+</div>
+<div>
+
 **Logline:** Ein einsamer Roboter entdeckt in einer von der Natur zurückeroberten Stadt, dass seine verlorene Partnerin nie weg war, sondern in ihm lebt – und weckt mit seinem Signal die Lichter der toten Stadt wieder zum Leben.
 
 - **Format:** Musikvideo, 3–5 Min., vollständig KI-generiert (lokal)
-- **Figuren:** 2 → Roboter „Prima" + Echo als Hologramm
+- **Figuren:** 2 → Roboter „Prima“ + Echo als Hologramm
 - **Orte:** 4 → Straße, U-Bahn-Tunnel, Parklichtung, Glas-Kuppel
 - **Leitmotiv:** das rote Signal
-:::
-:::
+
+</div>
+
+</div>
 
 ---
 
 # Die Figuren
 
-::: two
-::: figure
+<div class="two">
+
+<div>
+
 ### Prima (Protagonist)
 
 - Kleiner, runder Roboter, ~30 cm, cremefarbene Schale mit rostfarbenen Kratzern
@@ -213,8 +224,10 @@ style: |
 - Dünne, **leuchtend rote Antenne** als Signalgeber
 - Kleiner, abgenutzter **grauer Rucksack**
 - Kompakt und stämmig, kurze dicke Beine
-:::
-::: figure
+
+</div>
+<div>
+
 ### Echo (nur als Hologramm)
 
 - Identische runde Schale, aber **ohne Rost**, mit innerem Glimmen
@@ -222,27 +235,37 @@ style: |
 - Halbtransparent, Pixel-Artefakte an den Rändern, schwebend
 
 > Visuell bewusst von Prima abgesetzt → kein physischer Konsistenz-Druck
-:::
-:::
+
+</div>
+
+</div>
 
 ---
 
 # Handlung in drei Akten
 
-::: figures3
-::: figure
+<div class="figures3">
+
+<div class="figure">
+
 ![straße](assets/akt1_strasse.svg)
 **Akt 1 · Das Signal**
-:::
-::: figure
+
+</div>
+<div class="figure">
+
 ![tunnel](assets/akt2_tunnel.svg)
 **Akt 2 · Die Suche**
-:::
-::: figure
+
+</div>
+<div class="figure">
+
 ![kuppel](assets/akt3_kuppel.svg)
 **Akt 3 · Die Erkenntnis**
-:::
-:::
+
+</div>
+
+</div>
 
 - **Akt 1:** Primas Auge öffnet sich in einer überwucherten Straße, rote Antenne pulsiert schwach.
 - **Akt 2:** U-Bahn-Tunnel, Moos, Signal wird schwächer. *Bridge:* Parklichtung, Regen, Antenne erlischt.
@@ -252,8 +275,10 @@ style: |
 
 # Bildstil
 
-::: two
-::: figure
+<div class="two">
+
+<div>
+
 **Farbpalette**
 - Gedämpfte Erdtöne: Moosgrün, Rostbraun, Schiefergrau
 - Kontrast-Akzente: Bernstein-Gelb (Auge), intensives Signal-Rot
@@ -268,11 +293,15 @@ style: |
 - Cinematisch, leicht anamorpher Look
 - **Nur statische oder lineare Bewegungen** (Dolly/Truck)
 - Keine Follow-Shots → Dynamik ausschließlich im Schnitt
-:::
-::: figure
+
+</div>
+<div class="figure">
+
 ![palette](assets/palette.svg)
-:::
-:::
+
+</div>
+
+</div>
 
 ---
 
@@ -283,18 +312,20 @@ style: |
 | Abschnitt | Klang |
 | --- | --- |
 | **Intro/Strophe** | Tiefe Drums, Synth-Pads, Gitarren-Klirrer, ~70 BPM, melancholisch |
-| **Refrain** | Percussion, epische Streicher, hallende Synths, **weibliche ethereale Vocals** |
+| **Refrain** | Percussion, epische Streicher, hallende Synths, **weibliche ätherische Vocals** |
 | **Bridge** | Minimalistisch: pulsierender Bass + Antennen-Sounddesign |
-| **Finale Refrain** | Volles Orchester, triumphale Melodie, Vocals klarer; Ende = hallender Akkord + „Einschalten" der Stadt |
+| **Finale Refrain** | Volles Orchester, triumphale Melodie, Vocals klarer; Ende = hallender Akkord + „Einschalten“ der Stadt |
 
-> ⚠️ Weibliche ethereale Vocals im Refrain – **noch von der Gruppe zu bestätigen**
+> ⚠️ Weibliche ätherische Vocals im Refrain – **noch von der Gruppe zu bestätigen**
 
 ---
 
 # Produktions-Pipeline
 
-::: two
-::: figure
+<div class="two">
+
+<div>
+
 ```
 Exposé → Drehbuch → Storyboard
        → Shotlist (JSON)
@@ -306,18 +337,24 @@ Exposé → Drehbuch → Storyboard
 
 - **Bild:** FLUX.1 dev · **Video:** Wan 2.2 (I2V)
 - **Musik:** ACE-Step 1.5 · **Post:** ComfyUI / DaVinci Resolve
-:::
-::: figure
+
+</div>
+<div class="figure">
+
 ![finale](assets/akt3_finale.svg)
-:::
-:::
+
+</div>
+
+</div>
 
 ---
 
 # Technik: Konsistenz & I2V
 
-::: two
-::: figure
+<div class="two">
+
+<div>
+
 **Kern-Problem:** Wan 2.2 hat **keinen Gedächtnis-Kontext** über Clips hinweg.
 
 **Lösung: I2V für jeden Clip**
@@ -327,54 +364,72 @@ Exposé → Drehbuch → Storyboard
 4. Identität via **IP-Adapter / LoRA** erzwingen
 
 **5 Master-Posen:** stehend · rollend · Kopf gesenkt · Hand ausgestreckt · Auge offen
-:::
-::: figure
+
+</div>
+<div class="figure">
+
 ![master posen](assets/master_posen.svg)
-:::
-:::
+
+</div>
+
+</div>
 
 ---
 
 # Risiken & Lösungen (Kritik-Runde)
 
-::: cards3
-::: card
+<div class="cards3">
+
+<div class="card">
+
 ### 1 · Hologramm-Interaktion
 **Risiko:** Prima + Echo im selben Frame → Licht/Schatten-Physik bricht zusammen.
 
 **Lösung:** *Interaktion durch Schnitt* – Shot A (Prima + Lichtkern), Shot B (Auge, Reflexion in Post), Shot C (nur Echo). A+C wechseln.
-:::
-::: card
-### 2 · „Wackelkamera"
+
+</div>
+<div class="card">
+
+### 2 · „Wackelkamera“
 **Risiko:** Handheld + schnelle Schnitte = Morphing, frisst Clip-Budget.
 
 **Lösung:** 3–4 *statische/lineare Shots* (frontal, seitlich, Rückansicht). Dynamik durch Schnitttempo.
-:::
-::: card
+
+</div>
+<div class="card">
+
 ### 3 · Figurenkonsistenz
 **Risiko:** Modell interpretiert Figur neu (Antenne rot/orange, Auge groß/klein).
 
 **Lösung:** Strenge *I2V-Pipeline* mit 5 Master-Images, Identität via IP-Adapter/LoRA.
-:::
-:::
+
+</div>
+
+</div>
 
 ---
 
 # Finale: Interaktion durch Schnitt
 
-::: two
-::: figure
-**Kein gemeinsamer Frame.** Die emotionale „Berührung" entsteht im Rhythmus des Schnitts:
+<div class="two">
+
+<div>
+
+**Kein gemeinsamer Frame.** Die emotionale „Berührung“ entsteht im Rhythmus des Schnitts:
 
 - **Shot A:** Prima + Lichtkern, Hand ohne Berührung (Partikel in Post)
 - **Shot B:** Großaufnahme Auge mit Echo-Reflexion (Post)
 - **Shot C:** nur Echo-Hologramm, allein, pulsierend
 - **Montage:** A + C schnell wechseln → Verbindung im Kopf des Zuschauers
-:::
-::: figure
+
+</div>
+<div class="figure">
+
 ![schnitt](assets/schnitt_montage.svg)
-:::
-:::
+
+</div>
+
+</div>
 
 ---
 
@@ -384,7 +439,7 @@ Exposé → Drehbuch → Storyboard
 | --- | --- |
 | Wackelkamera / Follow-Shots | technisch nicht zuverlässig mit Wan 2.2 |
 | Gemeinsamer Frame Prima + Echo | nicht renderbar, physikalisch unsinnig |
-| „Refrain = schnelle Schnitte im Modell" | Clip-Budget + Artefakt-Risiko |
+| „Refrain = schnelle Schnitte im Modell“ | Clip-Budget + Artefakt-Risiko |
 
 > **Prinzip: Dynamik entsteht im Schnitt, nicht im Modell.**
 
@@ -398,18 +453,37 @@ Exposé → Drehbuch → Storyboard
 - **4 Orte:** Straße, U-Bahn-Tunnel, Parklichtung, Glas-Kuppel
 - **Twist** (Erinnerung) in Szene 7, direkt nach der leisen Bridge
 - **Finale:** Signal + Stadt erwacht
-- **Musik:** Cinematic Post-Rock, ~70 BPM, weibliche ethereale Vocals
+- **Musik:** Cinematic Post-Rock, ~70 BPM, weibliche ätherische Vocals
 
 ---
 
 # Offene Punkte & Nächste Schritte
 
-- [ ] **Gruppenentscheidung:** „Echo im Rost" vs. „Gravity of Wild" (Fabian) → Abgabe 08.11.
-- [ ] **Musik:** weibliche ethereale Vocals bestätigen (ACE-Step 1.5)
-- [ ] **Drehbuch + Storyboard** aus dem Exposé ableiten
-- [ ] **Shotlist** als JSON (gemeinsames Schema)
-- [ ] **Master-Posen** generieren (FLUX.1 dev, 5 Poses, IP-Adapter/LoRA)
-- [ ] **Pilot-Clips** mit Wan 2.2 (I2V) – Konsistenz testen
+<div class="two">
+
+<div>
+
+### Offen
+
+- **Gruppenentscheidung:** „Echo im Rost“ vs. „Gravity of Wild“ (Fabian) → Abgabe 08.11.
+- **Musik:** weibliche ätherische Vocals bestätigen (ACE-Step 1.5)
+- **Master-Posen** generieren (FLUX.1 dev, 5 Posen, IP-Adapter/LoRA)
+- **Pilot-Clips** mit Wan 2.2 (I2V) – Konsistenz testen
+- **Shotlist** an reale Songstruktur anpassen (LE 7)
+
+</div>
+
+<div class="done">
+
+### Erledigt (02.11.)
+
+- **Drehbuch** – 8 Szenen, ~4:00 Min.
+- **Storyboard** – 43 Shots
+- **Shotlist** v001 als JSON, gegen Schema validiert (240 s)
+
+</div>
+
+</div>
 
 **Rechte-Status:** Originalfiktion der Gruppe, frei für das Kursprojekt verwendbar.
 
@@ -420,11 +494,13 @@ Exposé → Drehbuch → Storyboard
 | Datei | Inhalt |
 | --- | --- |
 | `expose/echo-im-rost.md` | Endgültiges Exposé (inkl. manueller Korrektur) |
+| `expose/drehbuch_echo_im_rost.txt` · `storyboard_echo_im_rost.txt` | Drehbuch (8 Szenen) · Storyboard (43 Shots) |
+| `shotlist/shotlist_v001.json` | Shotlist (vorläufig), Schema: `shotlist/schema.json` |
 | `prompts/expose_robostadt.txt` | Prompt-Vorlage (Rolle, Kontext, Aufgabe, Format, Einschränkungen) |
 | `prompts/expose_kritik.txt` | Kritiker-Prompt |
 | `prompts/expose_ueberarbeitung.txt` | Überarbeitungs-Prompt |
 | `prompts/kritik_ergebnis.md` | Kritiker-Output (3 Schwächen) |
 | `log.md` | Alle Generierungen: Modell, Parameter, Laufzeit, Entscheidungen |
 
-**Modell:** Qwen3.8-27B (Ollama, Q4_K_M), `think=false`, Kontext 262k
+**Modell:** Qwen3.8-27B (Ollama, Q4_K_M), `think=false`, Kontext 262k<br>
 **Laufzeiten:** Entwurf T=0,8 · ~93 s · Kritik T=0,7 · ~66 s · Überarbeitung T=0,7 · ~58 s
