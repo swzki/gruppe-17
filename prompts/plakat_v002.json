@@ -1,0 +1,61 @@
+{
+  "type": "poster",
+  "style": "cinematic sci-fi film poster, painted digital art, portrait format, soft volumetric dawn light, muted earth tones, melancholic quiet hopeful mood, subtle film grain, no bright saturated colors",
+  "palette": [
+    "moss green",
+    "rust brown",
+    "slate gray",
+    "amber",
+    "signal red"
+  ],
+  "elements": [
+    {
+      "kind": "background",
+      "description": "overgrown ruined city at dawn, thin mist, moss and ivy covering rusty ruins, soft diffused gray morning light, melancholic quiet atmosphere, portrait composition"
+    },
+    {
+      "kind": "figure",
+      "description": "Prima, small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back, standing bottom center in the lower third, looking toward a small pulsing red signal light in the distance, amber eye as the brightest light source"
+    },
+    {
+      "kind": "prop",
+      "description": "small pulsing red signal light in the distant ruined skyline, faint warm red glow, subtle hopeful accent, placed high in the middle distance"
+    },
+    {
+      "kind": "text",
+      "description": "large bold condensed title centered in the upper third, bright readable letters on dark background, clear spacing",
+      "content": "Echo im Rost",
+      "font": "bold condensed sans-serif",
+      "bbox": [
+        70,
+        70,
+        930,
+        210
+      ]
+    },
+    {
+      "kind": "text",
+      "description": "small clean credit line centered near the bottom, readable, subtle light gray",
+      "content": "Gruppe 17",
+      "font": "light sans-serif",
+      "bbox": [
+        350,
+        880,
+        650,
+        920
+      ]
+    },
+    {
+      "kind": "text",
+      "description": "very small discreet disclaimer centered at the very bottom, low contrast but readable",
+      "content": "KI-generiert",
+      "font": "light sans-serif",
+      "bbox": [
+        380,
+        940,
+        620,
+        975
+      ]
+    }
+  ]
+}

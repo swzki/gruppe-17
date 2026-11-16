@@ -1,0 +1,19 @@
+Format: Filmplakat, Hochformat.
+
+Titel (buchstabengetreu als Textelement): Echo im Rost
+
+Hauptfigur (Prima, Merkmale wörtlich wie im Character Sheet):
+small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye, thin bright red antenna on top of its head, small worn gray backpack on its back
+Die Figur steht unten mittig im unteren Bilddrittel und blickt zu einem kleinen rot pulsierenden Signallicht in der Ferne; ihr bernsteinfarbenes Auge ist die hellste Lichtquelle des Plakats.
+
+Hintergrund: eine von der Natur zurückeroberte Stadt im Morgengrau, Moos und Efeu auf rostigen Ruinen, dünner Nebel, weiches diffuses Licht.
+
+Stimmung: melancholisch und still, aber leise hoffnungsvoll; einsam und warm zugleich.
+
+Farbwelt: gedämpfte Erdtöne (Moosgrün, Rostbraun, Schiefergrau); einzige warme Akzente sind das bernsteinfarbene Augenlicht und ein Signalrot. Keine grellen oder gesättigten Farben.
+
+Credits (buchstabengetreu als Textelement, unten): Gruppe 17
+Hinweis (buchstabengetreu als kleines Textelement, ganz unten): KI-generiert
+
+Der Titel muss groß, zentriert im oberen Drittel und gut lesbar sein.
+Alle Textelemente brauchen ein bbox mit ganzzahligen Werten zwischen 0 und 1000.

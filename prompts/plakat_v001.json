@@ -1,0 +1,29 @@
+{
+  "type": "poster",
+  "style": "cinematic sci-fi movie poster, painted digital art, soft volumetric dawn light, portrait format, muted earth tones, subtle film grain",
+  "palette": ["moss green", "rust brown", "slate gray", "amber"],
+  "elements": [
+    {
+      "kind": "background",
+      "description": "overgrown ruined city at dawn, thin mist, moss and ivy covering rusty buildings and abandoned cars, soft gray morning light"
+    },
+    {
+      "kind": "figure",
+      "description": "small round robot with cream matte shell covered in rust-colored scratches, single large glowing amber eye, thin bright red antenna, small gray backpack, standing bottom center of the poster looking up at a distant flickering red light"
+    },
+    {
+      "kind": "text",
+      "content": "ROST UND MOOS",
+      "description": "large bold condensed title at the top, bright letters on dark background, well readable",
+      "font": "bold condensed sans-serif",
+      "bbox": [80, 60, 920, 200]
+    },
+    {
+      "kind": "text",
+      "content": "EIN KURZFILM",
+      "description": "small thin tagline centered directly below the title",
+      "font": "light sans-serif",
+      "bbox": [340, 230, 660, 280]
+    }
+  ]
+}
