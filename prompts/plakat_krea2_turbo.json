@@ -1,0 +1,16 @@
+{
+  "titel": "Echo im Rost",
+  "zweck": "Filmplakat / Movie Poster",
+  "format": "2:3 Hochformat",
+  "modell": "Krea 2 Turbo",
+  "prompt_bild": "cinematic movie poster in 2:3 portrait format, one single small round robot with off-white matte shell covered in rust-colored scratches, one large round amber eye glowing softly, one thin bright red antenna on top of its head pulsing with red light, small worn gray backpack, standing in the center of a giant plant-overgrown glass dome, reaching one short arm toward a floating glowing light core, a translucent blue-white holographic robot silhouette shimmering inside the light core with pixel artifacts at its edges, in the far background the lights of a dead city awakening one by one like stars, dawn sky in warm orange and rose tones over a silhouette of ruined skyscrapers reclaimed by nature, moss and ivy on broken buildings, soft mist, muted earth tones of moss green rust brown and slate gray contrasted with amber yellow and signal red, dramatic rim lighting, cinematic anamorphic look, subtle vignette, soft film grain, clean uncluttered poster composition with large empty sky area at the top for the title",
+  "text_im_bild": {
+    "titel_zeile": "ECHO IM ROST",
+    "hinweis": "Krea 2 Turbo rendert kurze Titeltext rechtschreiblich unsicher; Titel am besten leer lassen und in Post (DaVinci Resolve) als Typography-Overlay in den freien Himmelsbereich oben setzen."
+  },
+  "hinweise_krea": {
+    "negativ_prompt": "Krea unterstützt keinen Negativ-Prompt – unerwünschte Elemente stattdessen positiv ausschließen (z.B. 'one single robot', 'clean uncluttered composition')",
+    "schritte_guidance": "bei Turbo vorgegeben, nicht tunebar; nur Seed/scale Wiedergabe reproduzierbar",
+    "stil_referenz": "optional eine der 5 Prima-Master-Posen als Style-/Content-Referenz hochladen, um Charakterkonsistenz zu garantieren"
+  }
+}
