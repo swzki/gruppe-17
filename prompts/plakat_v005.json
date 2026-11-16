@@ -1,0 +1,54 @@
+{
+  "type": "poster",
+  "style": "official theatrical movie one-sheet, premium key art, photorealistic cinematic still, shot on 65mm film, real lens optics with shallow depth haze, subtle film grain, professional composition and typography hierarchy, professional print quality, realistic practical-effects prop creature, absolutely not cartoon, not toy, not 3d render look",
+  "palette": ["moss green", "rust brown", "slate gray", "amber", "signal red"],
+  "elements": [
+    {
+      "kind": "background",
+      "description": "photoreal overgrown ruined city at dawn, thin mist drifting between crumbling concrete buildings covered in moss and ivy, rusty abandoned cars, broken cracked asphalt, soft diffused gray morning light with faint god rays, realistic weathering, decay and vegetation detail everywhere, muted desaturated earth tones"
+    },
+    {
+      "kind": "figure",
+      "description": "photorealistic two-part rolling robot rendered as a real photographed practical-effect prop, inspired by BB-8: LOWER BODY is a single nearly perfect sphere about 40 cm in diameter with NO legs and NO limbs, rolling on the ground like a ball, off-white matte plastic shell with scratched flaking paint, real rust-colored streaks and moss and dirt smudges on its lower half; UPPER BODY is a separate hemispherical head dome of the same off-white shell resting on a fixed collar ring above the sphere, with a large round amber glass eye lens set flush into the dome glowing softly with internal reflections and a visible mechanical aperture ring, and a thin bright red painted metal antenna on top of the dome; a small worn gray canvas backpack with buckled leather straps is mounted on a slim metal yoke that bolts into the same fixed collar ring as the head, so the head and backpack are carried above the sphere and stay upright in place while the ball rolls underneath, with a small visible gap between the rolling sphere and the carried head-and-backpack assembly; the sphere rests on cracked asphalt in the middle of the poster, facing a distant red light; indistinguishable from a real object photographed on a real set"
+    },
+    {
+      "kind": "prop",
+      "description": "small bright red signal light glowing on a distant ruined rooftop, faint volumetric red glow through the morning mist, the only saturated color point in the scene"
+    },
+    {
+      "kind": "text",
+      "content": "Echo im Rost",
+      "description": "the film title appears EXACTLY ONCE, large bold condensed letters centered in the upper third, weathered off-white type with subtle rust texture and slight embossing, premium theatrical title treatment with strong contrast against the dark sky",
+      "font": "bold condensed sans-serif, weathered",
+      "bbox": [70, 60, 930, 200]
+    },
+    {
+      "kind": "text",
+      "content": "EIN KURZFILM",
+      "description": "small uppercase tagline centered directly below the title, wide letter spacing, thin elegant type, appears EXACTLY ONCE",
+      "font": "light sans-serif",
+      "bbox": [360, 225, 640, 262]
+    },
+    {
+      "kind": "text",
+      "content": "JEDES SIGNAL VERDIENT EINE ANTWORT",
+      "description": "movie tagline in small uppercase letters with wide letter spacing, centered between the title block and the robot, subtle warm off-white, appears EXACTLY ONCE",
+      "font": "light condensed sans-serif",
+      "bbox": [220, 285, 780, 322]
+    },
+    {
+      "kind": "text",
+      "content": "GRUPPE 17 PRÄSENTIERT · AB 07.03.2027",
+      "description": "classic movie billing block in tiny dense condensed uppercase letters centered near the bottom, two-line studio credit block style, muted light gray, appears EXACTLY ONCE",
+      "font": "ultra condensed sans-serif, billing block",
+      "bbox": [220, 865, 780, 930]
+    },
+    {
+      "kind": "text",
+      "content": "KI-generiert",
+      "description": "very small discreet legal-style note centered at the very bottom edge, low contrast, appears EXACTLY ONCE",
+      "font": "light sans-serif",
+      "bbox": [420, 948, 580, 978]
+    }
+  ]
+}
