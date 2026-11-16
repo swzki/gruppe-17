@@ -1,0 +1,61 @@
+{
+  "type": "poster",
+  "style": "official theatrical movie one-sheet, premium key art, photorealistic cinematic still, shot on 65mm film, real lens optics with shallow depth haze, subtle film grain, professional print quality, all rendered text is perfectly spelled, sharp, high contrast and horizontally oriented, absolutely no vertical text, no rotated text, no gibberish, not based on any existing movie robot, absolutely not cartoon, not toy, not 3d render look",
+  "palette": ["moss green", "rust brown", "slate gray", "amber", "signal red"],
+  "elements": [
+    {
+      "kind": "background",
+      "description": "photoreal overgrown ruined city at dawn, thin mist drifting between crumbling concrete buildings covered in moss and ivy, rusty abandoned cars, broken cracked asphalt, soft diffused gray morning light with faint god rays, realistic weathering and vegetation detail everywhere, muted desaturated earth tones"
+    },
+    {
+      "kind": "figure",
+      "description": "photorealistic original robot character, an entirely new design that must not resemble BB-8 or any existing movie robot: LOWER BODY is a plain sphere about 40 cm in diameter with no legs, rolling on the ground like a ball, simple smooth off-white matte plastic shell with scratched flaking paint, real rust streaks and moss smudges on the lower half, completely plain surface with NO colored panels, NO decals, NO orange parts, NO extra dials or lenses; UPPER BODY is a smaller plain hemispherical dome of the same off-white shell sitting directly on top of the sphere on a visible rusty metal ring seam, with exactly ONE single large round amber glass eye lens flush in the front center of the dome, softly glowing with internal reflections, and one thin bright red painted metal antenna on the very top of the dome; a small worn gray canvas backpack with buckled leather straps is mounted on a small metal bracket just behind the dome so it stays upright and still while the ball rolls underneath; the head and backpack remain steady while the sphere rolls; the sphere rests on cracked asphalt in the middle of the poster with a soft realistic contact shadow, facing a distant red light; indistinguishable from a real photographed practical-effect prop"
+    },
+    {
+      "kind": "prop",
+      "description": "small bright red signal light glowing on a distant ruined rooftop, faint volumetric red glow through the morning mist, the only saturated color point in the scene"
+    },
+    {
+      "kind": "text",
+      "content": "Echo im Rost",
+      "description": "the film title appears EXACTLY ONCE, large bold condensed letters horizontal and centered in the upper third, weathered off-white type with subtle rust texture, premium theatrical title treatment with strong contrast against the dark sky, perfectly readable",
+      "font": "bold condensed sans-serif, weathered",
+      "bbox": [70, 60, 930, 200]
+    },
+    {
+      "kind": "text",
+      "content": "EIN KURZFILM",
+      "description": "small uppercase tagline horizontal and centered directly below the title, wide letter spacing, thin elegant type, appears EXACTLY ONCE, sharp and readable",
+      "font": "light sans-serif",
+      "bbox": [370, 225, 630, 262]
+    },
+    {
+      "kind": "text",
+      "content": "EIN SIGNAL. EINE ANTWORT.",
+      "description": "short movie tagline in small uppercase letters horizontal and centered just above the robot, subtle warm off-white, appears EXACTLY ONCE, sharp and readable",
+      "font": "light condensed sans-serif",
+      "bbox": [310, 300, 690, 336]
+    },
+    {
+      "kind": "text",
+      "content": "GRUPPE 17 PRÄSENTIERT",
+      "description": "presentation credit horizontal and centered near the bottom, clean medium-size uppercase letters, warm light gray, appears EXACTLY ONCE, sharp and clearly readable",
+      "font": "light condensed sans-serif",
+      "bbox": [330, 852, 670, 885]
+    },
+    {
+      "kind": "text",
+      "content": "HOCHSCHULE FULDA · MODUL KI IN DER MEDIENPRODUKTION · PROF. DR. JAN-TORSTEN MILDE · AB 07.03.2027",
+      "description": "classic movie poster billing block in tiny dense ultra-condensed uppercase letters like a real theatrical one-sheet, two centered lines, muted light gray, every single word spelled EXACTLY as given, appears EXACTLY ONCE, crisp and legible",
+      "font": "ultra condensed sans-serif, billing block",
+      "bbox": [140, 895, 860, 938]
+    },
+    {
+      "kind": "text",
+      "content": "KI-generiert",
+      "description": "very small discreet note horizontal and centered at the very bottom edge, low contrast, appears EXACTLY ONCE, readable",
+      "font": "light sans-serif",
+      "bbox": [425, 950, 575, 980]
+    }
+  ]
+}

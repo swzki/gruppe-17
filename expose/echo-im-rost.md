@@ -7,11 +7,11 @@
 ### Figuren
 
 **1. Unit „Prima“ (Protagonist)**
-*   **Körper:** Kleiner, runder Roboter mit cremefarbener, mattierter Schale, die deutliche rostfarbene Kratzer und Abnutzungsspuren aufweist.
-*   **Auge:** Ein einzelnes, großes, rundes Auge in Bernsteinfarbe, das weich leuchtet und Emotionen durch Helligkeit und Fokus ausdrückt.
-*   **Accessoire:** Eine dünne, leuchtend rote Antenne, die senkrecht aus dem Kopf wächst und als Signalgeber dient.
-*   **Rucksack:** Ein kleiner, abgenutzter grauer Rucksack mit zwei Riemen, der fest an der Rückseite befestigt ist.
-*   **Proportion:** Kompakt und stämmig, ca. 30 cm hoch, kurze dicke Beine für stabile Bewegung.
+*   **Körper:** Zweiteiliger Kugelroboter: Der Unterkörper ist eine cremefarbene, mattierte Kugel (ca. 40 cm Durchmesser) mit rostfarbenen Kratzern, auf der sie rollt; darauf sitzt als eigenständiger Kopf eine kleinere Halbkugel-Kuppel aus derselben Schale mit sichtbarem rostigem Ringspalt dazwischen.
+*   **Auge:** Ein einzelnes, großes, rundes Auge in Bernsteinfarbe als Glaslinse mittig in der Kopfkuppel, das weich leuchtet und Emotionen durch Helligkeit und Fokus ausdrückt.
+*   **Accessoire:** Eine dünne, leuchtend rote Antenne, die senkrecht vom Scheitel der Kopfkuppel wächst und als Signalgeber dient.
+*   **Rucksack:** Ein kleiner, abgenutzter grauer Canvas-Rucksack mit zwei Riemen, auf einer kleinen Metallhalterung direkt hinter der Kopfkuppel montiert, sodass er beim Rollen des Körpers an derselben Stelle stehen bleibt.
+*   **Proportion:** Kompakt, ca. 55 cm hoch; keine Beine – Fortbewegung ausschließlich durch Rollen der unteren Kugel, Kopf und Rucksack bleiben dabei oben ruhig.
 
 **2. Echo (Nur als Hologramm/Erinnerung)**
 *   *Hinweis: Da die Beschränkung auf 2 Hauptfiguren gilt, wird Echo nicht als physische Figur, sondern als holographische Projektion dargestellt, die visuell Prima ähnelt, aber transparent und blau-weiß leuchtet, um die Unterscheidung zu garantieren.*

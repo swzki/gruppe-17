@@ -38,24 +38,17 @@
     },
     {
       "kind": "text",
-      "content": "GRUPPE 17 PRÄSENTIERT",
-      "description": "presentation credit horizontal and centered near the bottom, clean medium-size uppercase letters, warm light gray, appears EXACTLY ONCE, sharp and clearly readable",
-      "font": "light condensed sans-serif",
-      "bbox": [330, 852, 670, 885]
-    },
-    {
-      "kind": "text",
-      "content": "HOCHSCHULE FULDA · MODUL KI IN DER MEDIENPRODUKTION · PROF. DR. JAN-TORSTEN MILDE · AB 07.03.2027",
-      "description": "classic movie poster billing block in tiny dense ultra-condensed uppercase letters like a real theatrical one-sheet, two centered lines, muted light gray, every single word spelled EXACTLY as given, appears EXACTLY ONCE, crisp and legible",
-      "font": "ultra condensed sans-serif, billing block",
-      "bbox": [140, 895, 860, 938]
+      "content": "GRUPPE 17 · AB 07.03.2027",
+      "description": "single credit line horizontal and centered near the bottom, clean small uppercase studio credit style, muted light gray, appears EXACTLY ONCE, sharp and clearly readable",
+      "font": "light sans-serif",
+      "bbox": [300, 880, 700, 920]
     },
     {
       "kind": "text",
       "content": "KI-generiert",
       "description": "very small discreet note horizontal and centered at the very bottom edge, low contrast, appears EXACTLY ONCE, readable",
       "font": "light sans-serif",
-      "bbox": [425, 950, 575, 980]
+      "bbox": [425, 948, 575, 980]
     }
   ]
 }

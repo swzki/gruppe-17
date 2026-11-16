@@ -19,9 +19,10 @@ OUT_PATH = BASE / "shotlist" / "shotlist_v001.json"
 # Feste Figuren-Merkmale: diese exakten Strings stehen wortgleich in JEDEM
 # prompt_bild, in dem die Figur vorkommt (Konsistenz-Check prüft das).
 PRIMA = (
-    "small round robot with off-white matte shell covered in rust-colored scratches, "
-    "one large round amber eye, thin bright red antenna on top of its head, "
-    "small worn gray backpack on its back"
+    "small rolling robot, one plain off-white matte sphere with rust-colored scratches "
+    "as its body, a separate hemispherical head dome on top with one large round amber "
+    "eye lens, a thin bright red antenna on top of the dome, "
+    "a small worn gray canvas backpack carried above the sphere"
 )
 ECHO = (
     "translucent blue-white holographic robot in identical round shape to Prima, "
@@ -62,7 +63,7 @@ SHOTS = [
      p(True, False, "wide shot, tiny in frame on an overgrown street, looking toward a faint flickering red light in the far distance between ruined buildings")),
     ("s06", 1, "Intro", 5, "Nah", "statisch", ["Prima"],
      "Prima hebt den Kopf und macht einen Schritt vorwärts.",
-     p(True, False, "medium close-up lifting its head and stepping forward on cracked pavement")),
+      p(True, False, "medium close-up lifting its head dome and rolling forward on cracked pavement")),
 
     # Szene 2 – EXT. ÜBERWUCHERTE STRASSE – MORGENGRAU (Strophe 1, 35 s)
     ("s07", 2, "Strophe 1", 6, "Halbtotale", "Fahrt", ["Prima"],
@@ -70,7 +71,7 @@ SHOTS = [
      p(True, False, "side tracking shot rolling slowly along an overgrown wall covered in ivy")),
     ("s08", 2, "Strophe 1", 6, "Detail", "statisch", ["Prima"],
      "Nahaufnahme: Primas kurze, dicke Beine rollen über rissigen Asphalt, Moos wächst zwischen den Fugen.",
-     p(True, False, "detail shot of the short thick legs rolling over cracked asphalt with moss growing between the joints")),
+      p(True, False, "detail shot of the rolling sphere moving over cracked asphalt, moss and dirt smudges on its lower half")),
     ("s09", 2, "Strophe 1", 6, "Nah", "statisch", ["Prima"],
      "Prima hält an und blickt nach oben.",
      p(True, False, "medium close-up stopping and looking upward")),
@@ -144,7 +145,7 @@ SHOTS = [
      p(True, False, "close-up of the red antenna glowing bright red with a clear steady pulse")),
     ("s30", 6, "Bridge", 5, "Halbtotale", "Fahrt", ["Prima"],
      "Prima läuft durch die Parklichtung; im Hintergrund leuchtet die Glas-Kuppel.",
-     p(True, False, "side tracking shot walking through a park clearing, an overgrown glass dome glowing red in the background")),
+      p(True, False, "side tracking shot rolling through a park clearing, an overgrown glass dome glowing red in the background")),
     ("s31", 6, "Bridge", 5, "Totale", "statisch", [],
      "Die von Pflanzen umwucherte Glas-Kuppel; helles rotes Licht im Inneren.",
      p(False, False, "wide shot of a large glass dome overgrown with plants, bright red light glowing inside, no characters")),

@@ -111,3 +111,23 @@ Faustformel: **Gewichte in GB ≈ Parameter in Mrd. × Bit pro Gewicht / 8**
 - Song-Struktur über 8 Szenen: Intro / Strophe 1 / Strophe 2 / Refrain 1 / Bridge / Bridge-Ende / Refrain 2 (Auflösung) / Finaler Refrain + Outro.
 - Shot-IDs `s01`–`s43`; Storyboard-Tabelle verweist 1:1 auf die Shotlist-IDs.
 - Shotlist ist **vorläufig** – in LE 7 wird sie an die reale Songstruktur von ACE-Step angepasst.
+## LE 6 – Bild-Workflows & Plakat (16.11.2026)
+
+**Plakat-Pipeline (Übung 6.1, alles lokal):** `prompts/plakat_idee.txt` → `scripts/le06_plakat.py` → oMLX (`/v1/chat/completions`, Modell `Qwen3.8-27B-oQ8e-mtp`, temperature 0.4, `response_format: json_schema`) → validiert gegen `prompts/ideogram4_schema.json` (bbox 0–1000, Titel/Credits/Hinweis buchstabentreu) → `prompts/plakat_v002.json`. API-Key aus `$OMLX_API_KEY` oder `~/.config/opencode/opencode.json`.
+
+**Plakat-Iterationen (je Version nur ein Element gezielt geändert):**
+- `v002` (oMLX-Entwurf): Titel doppelt + „Prime 17“ statt „Gruppe 17“ – Ursache: „Prima，“ am Anfang der figure-Beschreibung wurde als Bildtext gerendert
+- `v003`: photorealistischer Look + „official theatrical one-sheet“ statt Illustration
+- `v004`: Roboter ohne Beine, nur rollende Kugel (Designentscheid, von Gruppe bestätigt)
+- `v005`: zweites Kugel-Element ergänzt – Kopfkuppel auf festem Ring, Rucksack auf Joch darüber (bleibt beim Rollen an derselben Stelle)
+- `v006`: Modell kopierte BB-8 → „no panels/decals/orange, exactly ONE eye, not based on any existing movie robot“; Tagline gekürzt, alle Texte „horizontal, sharp, readable“
+- `v007` (**aktueller Entwurf**): Credits als echter Billing-Block: GRUPPE 17 PRÄSENTIERT · HOCHSCHULE FULDA · MODUL KI IN DER MEDIENPRODUKTION · PROF. DR. JAN-TORSTEN MILDE · AB 07.03.2027
+- Zusatz: `prompts/plakat_krea2_turbo.json` (paralleler Entwurf, separate Renderstraße)
+
+**Figuren-Redesign Prima (Gruppenentscheid):** Beine entfernt – Unterkörper = rollende Kugel (~40 cm), darauf Kopfkuppel mit Ringspalt, ein bernsteinfarbenes Auge, rote Antenne; Rucksack hinter der Kuppel montiert. Character Sheet (`expose/echo-im-rost.md`) und `PRIMA`-Merkmale in `scripts/generate_shotlist.py` angepasst; Shotlist neu generiert und validiert (43 Shots, 240 s, Merkmale identisch).
+
+**ComfyUI-Workflow (lokal, kein Cloud-Magic-Prompt laut Skript S. 10):** Ideogram-4-T2I-Kette: `ideogram4_fp8_scaled` + `ideogram4_unconditional_fp8_scaled` (uncond-Branch), `CLIPLoader qwen3vl_8b_fp8_scaled` (type ideogram4), VAE `flux2-vae`, Sampler euler, Format 2:3 Hochformat ≈1 MP (848×1264). Das Plakat-JSON geht **direkt** in den positiven CLIP-Text-Encode; der „Ideogram4 Caption Prompt Template“-Node ist wirkungslos (führt nur nach „Preview as Text“) und bleibt als Doku für 6.4 erhalten. Export: `workflows/ideogram4_t2i_api.json` (API-Format, aus der lokalen ComfyUI-History); UI-Format muss in ComfyUI noch per Datei → Speichern unter `workflows/ideogram4_t2i.json` gesichert werden.
+
+**Bisherige Renders in `renders/`:** Poster-Durchläufe (Ideogram 4.0, mehrere Versionen, zuerst mit Titel-/Credit-Fehlern), erste Keyframes aus Qwen Image 2.1; Originale in der hessenbox.
+
+**To-dos bis Meilenstein:** Plakat v007 rendern und bewerten; Keyframe für jede der 8 Szenen (Übung 6.4) gegen Character Sheet prüfen; Inpainting-Fixes (6.2); Upscaling-Vergleich (6.3); UI-Workflow-Export; alles in Moodle hochladen.

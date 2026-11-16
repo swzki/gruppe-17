@@ -1,0 +1,47 @@
+{
+  "type": "poster",
+  "style": "official theatrical movie one-sheet, premium key art, photorealistic cinematic still, shot on 65mm film, real lens optics with shallow depth haze, subtle film grain, professional composition and typography hierarchy, professional print quality, realistic practical-effects prop creature, absolutely not cartoon, not toy, not 3d render look",
+  "palette": ["moss green", "rust brown", "slate gray", "amber", "signal red"],
+  "elements": [
+    {
+      "kind": "background",
+      "description": "photoreal overgrown ruined city at dawn, thin mist drifting between crumbling concrete buildings covered in moss and ivy, rusty abandoned cars, broken cracked asphalt, soft diffused gray morning light with faint god rays, realistic weathering, decay and vegetation detail everywhere, muted desaturated earth tones"
+    },
+    {
+      "kind": "figure",
+      "description": "photorealistic small round robot about 30 cm tall rendered as a real photographed practical-effect prop with believable physical materials: off-white matte plastic shell with scratched flaking paint and real rust-colored oxidation, one large round amber glass eye lens glowing softly with internal reflections and a visible mechanical aperture ring with fine wear around it, thin bright red painted metal antenna on top of its head, small worn gray canvas backpack with two buckled straps on its back, short thick mechanical legs with dirt and moss growing in the joints; standing on the cracked asphalt in the lower third of the poster, casting a soft realistic shadow, looking toward a distant red light; indistinguishable from a real object photographed on a real set"
+    },
+    {
+      "kind": "prop",
+      "description": "small bright red signal light glowing on a distant ruined rooftop, faint volumetric red glow through the morning mist, the only saturated color point in the scene"
+    },
+    {
+      "kind": "text",
+      "content": "Echo im Rost",
+      "description": "the film title appears EXACTLY ONCE, large bold condensed letters centered in the upper third, weathered off-white type with subtle rust texture and slight embossing, premium theatrical title treatment with strong contrast against the dark sky",
+      "font": "bold condensed sans-serif, weathered",
+      "bbox": [70, 70, 930, 210]
+    },
+    {
+      "kind": "text",
+      "content": "EIN KURZFILM",
+      "description": "small uppercase tagline centered directly below the title, wide letter spacing, thin elegant type, appears EXACTLY ONCE",
+      "font": "light sans-serif",
+      "bbox": [360, 235, 640, 275]
+    },
+    {
+      "kind": "text",
+      "content": "Gruppe 17",
+      "description": "single clean credit line centered near the bottom like a studio billing block, light gray, appears EXACTLY ONCE and nowhere else in the image",
+      "font": "light sans-serif",
+      "bbox": [350, 880, 650, 920]
+    },
+    {
+      "kind": "text",
+      "content": "KI-generiert",
+      "description": "very small discreet legal-style note centered at the very bottom edge, low contrast, appears EXACTLY ONCE",
+      "font": "light sans-serif",
+      "bbox": [380, 940, 620, 975]
+    }
+  ]
+}
