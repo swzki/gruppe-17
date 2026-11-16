@@ -1,0 +1,82 @@
+{
+  "type": "poster",
+  "style": "official theatrical movie one-sheet, premium key art, photorealistic cinematic still, shot on 65mm film, real anamorphic lens optics with shallow depth haze, subtle film grain, professional print quality, muted desaturated color grading with a single red accent, typography hierarchy of a real cinema poster, professional offset print finish. STRICT TYPOGRAPHY RULES FOR EVERY TEXT ELEMENT: every text appears EXACTLY ONCE at its bounding box, written in ONE single straight horizontal line, baseline perfectly level, NEVER vertical, NEVER rotated, NEVER curved, NEVER stacked sideways; letters sharp, crisp and high contrast; every word spelled EXACTLY as given, character by character, with correct German umlauts; no extra letters, no mirrored letters, no gibberish, no repeated words, no additional text anywhere else in the image; robot, background and props contain no letters or symbols at all",
+  "palette": ["moss green", "rust brown", "slate gray", "amber", "signal red"],
+  "elements": [
+    {
+      "kind": "background",
+      "description": "photoreal canyon of crumbling six-story city buildings at dawn, thin mist drifting between the facades, thick moss and hanging ivy on cracked concrete, rusty abandoned cars on broken cracked asphalt in the middle of the street, soft diffused gray morning light with faint god rays falling from the upper right, ultra-detailed realistic weathering, decay, puddles and vegetation, muted desaturated earth tones, deep atmospheric perspective pulling the eye toward the far end of the street where one tiny red light glows"
+    },
+    {
+      "kind": "figure",
+      "description": "photorealistic original robot character, an entirely new design that must NOT resemble BB-8 or any existing movie robot, rendered as a real photographed practical-effect prop with believable physical materials. LOWER BODY: one plain sphere about 40 cm in diameter, no legs, no feet, no limbs, the robot rolls on the ground like a ball; the sphere is a simple smooth off-white matte plastic shell with scratched flaking paint, streaks of real rust-colored oxidation and moss and dirt smudges on the lower third; the surface is completely plain and uniform, with NO colored panels, NO orange parts, NO decals, NO printed markings, NO extra dials, NO second lens, only a single thin dark seam ring around the middle of the sphere. UPPER BODY: a small clean hemispherical dome of the same off-white shell, a true perfect half-ball shape like the top of an egg, low profile, round and smooth, absolutely NOT tall, NOT flat-topped, NOT cylindrical, NOT shaped like any existing movie robot head; the dome rests on the sphere across a visible narrow rusty metal ring seam gap; the front center of the dome holds exactly ONE single large round amber glass eye lens, flush mounted in a dark metal bezel, glowing softly from within with tiny internal reflections and a faint mechanical aperture detail; on the very top of the dome grows one thin bright red painted metal antenna with a small red ball tip. BACKPACK: a small worn gray canvas backpack with two buckled leather straps mounted on a low metal bracket directly behind the dome so it stays upright and still while the lower sphere rolls. POSE AND LIGHT: the sphere rests on cracked asphalt in the center of the poster in a three-quarter view, its single amber eye aimed at the distant red light, soft realistic contact shadow under the sphere, gentle rim light along the dome edge from the morning sky, the amber eye the warmest glow on the robot; indistinguishable from a real object photographed on a real set"
+    },
+    {
+      "kind": "prop",
+      "description": "one small bright red signal light glowing on a distant ruined rooftop far down the street at eye height of the robot, faint volumetric red glow bleeding into the morning mist, the only saturated color point in the entire scene, sitting visually exactly on the line of sight of the robots amber eye"
+    },
+    {
+      "kind": "text",
+      "content": "Echo im Rost",
+      "description": "the film title, the largest text on the poster, one single straight horizontal line centered in its box in the upper third, five to seven times taller than any other text, bold condensed uppercase-friendly movie title letters in weathered off-white with subtle rust texture and slight embossing, strong contrast against the dark misty buildings behind, every letter of ECHO IM ROST complete and sharp, appears EXACTLY ONCE",
+      "font": "bold condensed movie title sans-serif, weathered off-white",
+      "bbox": [60, 70, 940, 240]
+    },
+    {
+      "kind": "text",
+      "content": "EIN KURZFILM",
+      "description": "subtitle directly below the title, one single straight horizontal line, small elegant uppercase letters with wide even letter spacing, thin light warm gray type, centered in its box, short clear word pair, appears EXACTLY ONCE",
+      "font": "light sans-serif, wide tracking",
+      "bbox": [340, 255, 660, 300]
+    },
+    {
+      "kind": "text",
+      "content": "AB 07.03.2027",
+      "description": "release date in tiny uppercase letters, one single straight horizontal line, centered above the title near the very top edge, muted warm gray, numbers perfectly clear, appears EXACTLY ONCE",
+      "font": "light sans-serif",
+      "bbox": [400, 22, 600, 55]
+    },
+    {
+      "kind": "text",
+      "content": "EIN SIGNAL. EINE ANTWORT.",
+      "description": "movie tagline, one single straight horizontal line floating in the misty street just above the robots head dome, medium-small uppercase letters with wide letter spacing, subtle warm off-white with slight glow, centered in its wide box so the line never needs to turn vertical, appears EXACTLY ONCE",
+      "font": "light condensed sans-serif, wide tracking",
+      "bbox": [240, 315, 760, 360]
+    },
+    {
+      "kind": "text",
+      "content": "GRUPPE 17 PRÄSENTIERT",
+      "description": "presentation credit line in the lower quarter, one single straight horizontal line, medium-small clean uppercase letters in warm light gray with even spacing, clearly readable, centered in its wide box, the umlaut Ä correct, appears EXACTLY ONCE",
+      "font": "light condensed sans-serif",
+      "bbox": [270, 815, 730, 855]
+    },
+    {
+      "kind": "text",
+      "content": "HOCHSCHULE FULDA",
+      "description": "first line of a classic three-line movie billing block stacked directly below the presentation credit, one single straight horizontal line of tiny dense condensed uppercase letters in muted gray, centered, sharp at close view, appears EXACTLY ONCE",
+      "font": "ultra condensed sans-serif, billing block",
+      "bbox": [340, 865, 660, 895]
+    },
+    {
+      "kind": "text",
+      "content": "MODUL KI IN DER MEDIENPRODUKTION",
+      "description": "second line of the billing block, one single straight horizontal line of tiny dense condensed uppercase letters in muted gray, centered directly under the previous line, appears EXACTLY ONCE",
+      "font": "ultra condensed sans-serif, billing block",
+      "bbox": [245, 898, 755, 928]
+    },
+    {
+      "kind": "text",
+      "content": "PROF. DR. JAN-TORSTEN MILDE",
+      "description": "third line of the billing block, one single straight horizontal line of tiny dense condensed uppercase letters in muted gray, centered directly under the previous line, appears EXACTLY ONCE",
+      "font": "ultra condensed sans-serif, billing block",
+      "bbox": [290, 931, 710, 958]
+    },
+    {
+      "kind": "text",
+      "content": "KI-generiert",
+      "description": "very small discreet disclaimer at the very bottom edge of the poster, one single straight horizontal line, low contrast muted gray, mixed case exactly as written, appears EXACTLY ONCE",
+      "font": "light sans-serif",
+      "bbox": [430, 965, 570, 992]
+    }
+  ]
+}
